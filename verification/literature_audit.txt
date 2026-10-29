@@ -1,0 +1,101 @@
+Independent primary-source literature and journal check
+Client date: 28 October 2026
+
+EXACT PROBLEM
+1. Kahina Meslem and Eric Sopena, On the distinguishing number of cyclic
+   tournaments: Towards the Albertson-Collins Conjecture, Discrete Applied
+   Mathematics 266 (15 August 2019), 219-236.
+   DOI https://doi.org/10.1016/j.dam.2018.10.021
+   Full primary HTML: https://arxiv.org/html/1608.04866v4
+   Version metadata: https://arxiv.org/abs/1608.04866v4
+   Submitted 17 August 2016; last revised 8 October 2018.
+   Conjecture 2 (Introduction) is exactly the requested canonical high-half
+   labeling: for all q>=1 and all cyclic T(2q+1;S), label {0,...,q} by 1,
+   and the remaining vertices by 2. Distinguishing means only the identity
+   automorphism preserves the labels. Thus the uploaded theorem addresses
+   a prescribed subset, stronger than existence of any distinguishing
+   2-labeling. Section 5 still asks to prove or disprove that conjecture.
+   The paper gives sufficient conditions via rigid half subtournaments and
+   proves the claim for every Paley tournament, among other classes.
+
+2. Original note obtained directly from coauthor's institutional site:
+   Michael O. Albertson and Karen L. Collins, A Note on Breaking the
+   Symmetries of Tournaments, Congressus Numerantium 136 (1999), 129-131.
+   https://kcollins.web.wesleyan.edu/publications/symnote-saks.pdf
+   Volume/page metadata also listed on https://kcollins.web.wesleyan.edu/vita.htm
+   Conjecture 2.4 uses the LOW half {0,...,t-1} for n=2t+1. This is equivalent
+   to the modern HIGH-half formulation: the low half's complement is
+   {t,...,2t}=I_n+t. A translate has a conjugate setwise stabilizer, and a
+   subset and its complement have the same stabilizer. When matching the
+   1999 statement explicitly, mention this equivalence rather than saying
+   the two printed labelings are word-for-word identical. There is a likely
+   final-variable typo in the original final endpoint, irrelevant here.
+
+3. David Gluck, Trivial set-stabilizers in finite permutation groups,
+   Canadian Journal of Mathematics 35(1) (1983), 59-67.
+   DOI https://doi.org/10.4153/CJM-1983-005-2
+   Primary publisher page:
+   https://www.cambridge.org/core/journals/canadian-journal-of-mathematics/article/trivial-setstabilizers-in-finite-permutation-groups/9667B85D9DDD0FE911C8382287B86167
+   The odd-order regular-subset existence result is Corollary 1. It yields
+   D(T)=2 for nontrivial cyclic tournaments but does not specify a half
+   interval. Avoid claiming D(T)=2 itself as the new result.
+
+PRIORITY SEARCH
+Used both available web search engines, with exact Albertson-Collins,
+canonical half/labeling, cyclic tournaments, distinguishing, proof/solved,
+Burnside/Schur, and recent-year 2024/2025/2026 variants. Primary hits were
+arXiv, the 2019 publisher, Eric Sopena's publications page, and original
+coauthor material. Read Sopena's recent list (entries through 2025):
+https://www.labri.fr/perso/sopena/pmwiki/index.php?n=Publications.Publications
+No later complete resolution was located in this targeted search. This is
+not a proof of novelty, priority, or that the problem remains open globally.
+No comprehensive MathSciNet/zbMATH citation-forward search or expert inquiry
+was performed. Search timestamps and misleading crawl dates are not paper
+publication dates.
+
+One confusing hit, Antoni Lozano, Distinguishing tournaments with small
+label classes, is ACTUALLY Acta Math. Univ. Comenianae 88(3) (2019), 923-928,
+arXiv:1707.05549 (2017). The recent crawl/portal date does not make it a new
+2024/2025 result. It treats minimal class size / distinguishing cost, not a
+complete canonical cyclic-tournament resolution. Primary text:
+https://upcommons.upc.edu/bitstreams/e3c8f7ff-1373-4877-8a23-2505f40f9174/download
+https://arxiv.org/abs/1707.05549
+
+JOURNAL OF GRAPH THEORY
+Official current author guidelines read:
+https://onlinelibrary.wiley.com/page/journal/10970118/homepage/forauthors.html
+Graph structural results and related combinatorics fit its stated scope.
+For a draft: abstract <=250 words; 4-7 keywords; full author name and
+institutional affiliations; references alphabetized by first author's
+surname. A LaTeX submission also requires a compiled PDF. Noncommercial
+preprints such as arXiv are permitted. The guidelines require a data
+availability statement and submitting-author ORCID. They expect supporting
+data/scripts to be publicly archived when appropriate; an entirely
+mathematical proof can accurately state that no datasets are used, keeping
+finite exploratory checks separate. Do not invent funding, conflict-of-
+interest, ORCID, or acknowledgments. The named journals should be treated
+as alternative targets, not simultaneous submissions.
+
+COMBINATORICA
+Official scope:
+https://link.springer.com/journal/493/aims-and-scope
+Includes graphs and permutation groups, emphasizing general techniques and
+unifying principles. The stronger group theorem helps explain relevance.
+Official guidelines entry:
+https://link.springer.com/journal/493/submission-guidelines
+Official linked instruction PDF:
+https://media.springer.com/full/springer-instructions-for-authors-assets/pdf/95445_1085900_493_CCA_Instructions_to_authors_20240627.pdf
+Also indexed official society journal page: https://combinatorica.hu/
+The PDF body was returned as primary search text; direct open failed due to
+its octet-stream response. Its directions allow short notes and say they
+receive expedited processing; maximum 30 pages in 11-point LaTeX on US
+letter with 1-inch margins; brief abstract; clear motivation and exact
+references; simple TeX/LaTeX source. Final files include affiliation/email,
+MSC codes, and running title <=35 characters. Submission uses EditFlow:
+https://ef.msp.org/submit/combinatorica
+The journal's accessibility instructions support a short, clean note that
+states the group lemma and then the tournament corollary. The evidence does
+not support an acceptance prediction or a claim that either journal prefers
+this specific result.
+
+No external messages or submissions were sent.

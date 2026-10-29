@@ -1,0 +1,18 @@
+# Downloaded Lean dependencies and compiled files
+lean/.lake/
+*.olean
+*.ilean
+*.trace
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Mac temporary files
+.DS_Store
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.synctex.gz

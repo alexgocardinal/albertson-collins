@@ -1,0 +1,22 @@
+{
+  "client_date": "2026-10-28",
+  "author_information_supplied_by_user": {
+    "name": "Alex Chan",
+    "affiliation": "Harvard and NBER",
+    "email": "achan@hbs.edu"
+  },
+  "inputs": [
+    {
+      "filename": "Albertson_Collins_canonical_coloring.pdf",
+      "size_bytes": 172583,
+      "sha256": "1b745d71f7304741361a52f0cf94a9d7dba72a04e8e02fb215c9fb9a5f4ba458"
+    },
+    {
+      "filename": "Albertson_Collins_proof_and_Round41_records.zip",
+      "size_bytes": 10641653,
+      "sha256": "218302feb6d124d9183800c3db50cf5855199e8a04396bd34590ba47dadad403"
+    }
+  ],
+  "standalone_vs_archived_pdf_normalized_text_identical": true,
+  "other_round41_conjectures_recertified": false
+}

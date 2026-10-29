@@ -1,0 +1,66 @@
+{
+  "schema": "cyclic-tournament-v1",
+  "name": "c3",
+  "title": "Directed triangle",
+  "n": 3,
+  "vertices": [
+    0,
+    1,
+    2
+  ],
+  "connectors": [
+    1
+  ],
+  "arc_rule": "u -> v iff (v-u) mod n is in connectors",
+  "canonical_coloring": [
+    1,
+    1,
+    2
+  ],
+  "arcs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ]
+  ],
+  "adjacency": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "verification": {
+    "n": 3,
+    "connectors": [
+      1
+    ],
+    "canonical_coloring": [
+      1,
+      1,
+      2
+    ],
+    "distinguishing": true,
+    "color_preserving_automorphisms_found_up_to_2": 1,
+    "nonidentity_witness": null
+  },
+  "uncolored_automorphism_group_order": 3
+}

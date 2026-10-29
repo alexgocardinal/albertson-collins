@@ -1,0 +1,64 @@
+{
+  "examples": [
+    {
+      "name": "c3",
+      "n": 3,
+      "connectors": [
+        1
+      ],
+      "uncolored_automorphism_group_order": 3,
+      "colored_automorphism_group_order": 1
+    },
+    {
+      "name": "regular5",
+      "n": 5,
+      "connectors": [
+        1,
+        2
+      ],
+      "uncolored_automorphism_group_order": 5,
+      "colored_automorphism_group_order": 1
+    },
+    {
+      "name": "paley7",
+      "n": 7,
+      "connectors": [
+        1,
+        2,
+        4
+      ],
+      "uncolored_automorphism_group_order": 21,
+      "colored_automorphism_group_order": 1
+    },
+    {
+      "name": "wreath9",
+      "n": 9,
+      "connectors": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "uncolored_automorphism_group_order": 81,
+      "colored_automorphism_group_order": 1
+    }
+  ],
+  "wreath9_blocks": [
+    [
+      0,
+      3,
+      6
+    ],
+    [
+      1,
+      4,
+      7
+    ],
+    [
+      2,
+      5,
+      8
+    ]
+  ],
+  "note": "All files preserve arc directions; graph6 would discard the tournament orientation."
+}

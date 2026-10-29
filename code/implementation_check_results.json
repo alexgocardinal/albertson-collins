@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "independent_oracle_comparisons": 2258,
+  "oracle": "All permutations, tested directly on every directed adjacency entry",
+  "coverage": "All tournaments of orders 1 through 5, each uncolored and 2-colored; 30 seeded random tournaments at orders 6 and 7, each uncolored and 3-colored",
+  "known_example_group_orders": [
+    3,
+    5,
+    21,
+    81
+  ],
+  "invalid_connector_cases_rejected": 6,
+  "seed": 20261028
+}

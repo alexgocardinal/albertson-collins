@@ -1,0 +1,758 @@
+{
+  "orders": 50,
+  "largest_order": 101,
+  "total_affine_permutations_checked": 143346,
+  "all_checks_passed": true,
+  "records": [
+    {
+      "n": 3,
+      "q": 1,
+      "affine_permutations_checked": 6,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 5,
+      "q": 2,
+      "affine_permutations_checked": 20,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "q": 3,
+      "affine_permutations_checked": 42,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          6,
+          3
+        ]
+      ]
+    },
+    {
+      "n": 9,
+      "q": 4,
+      "affine_permutations_checked": 54,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          8,
+          4
+        ]
+      ]
+    },
+    {
+      "n": 11,
+      "q": 5,
+      "affine_permutations_checked": 110,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "n": 13,
+      "q": 6,
+      "affine_permutations_checked": 156,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          12,
+          6
+        ]
+      ]
+    },
+    {
+      "n": 15,
+      "q": 7,
+      "affine_permutations_checked": 120,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          14,
+          7
+        ]
+      ]
+    },
+    {
+      "n": 17,
+      "q": 8,
+      "affine_permutations_checked": 272,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          16,
+          8
+        ]
+      ]
+    },
+    {
+      "n": 19,
+      "q": 9,
+      "affine_permutations_checked": 342,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          18,
+          9
+        ]
+      ]
+    },
+    {
+      "n": 21,
+      "q": 10,
+      "affine_permutations_checked": 252,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          20,
+          10
+        ]
+      ]
+    },
+    {
+      "n": 23,
+      "q": 11,
+      "affine_permutations_checked": 506,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          22,
+          11
+        ]
+      ]
+    },
+    {
+      "n": 25,
+      "q": 12,
+      "affine_permutations_checked": 500,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          24,
+          12
+        ]
+      ]
+    },
+    {
+      "n": 27,
+      "q": 13,
+      "affine_permutations_checked": 486,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          26,
+          13
+        ]
+      ]
+    },
+    {
+      "n": 29,
+      "q": 14,
+      "affine_permutations_checked": 812,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          28,
+          14
+        ]
+      ]
+    },
+    {
+      "n": 31,
+      "q": 15,
+      "affine_permutations_checked": 930,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          30,
+          15
+        ]
+      ]
+    },
+    {
+      "n": 33,
+      "q": 16,
+      "affine_permutations_checked": 660,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          32,
+          16
+        ]
+      ]
+    },
+    {
+      "n": 35,
+      "q": 17,
+      "affine_permutations_checked": 840,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          34,
+          17
+        ]
+      ]
+    },
+    {
+      "n": 37,
+      "q": 18,
+      "affine_permutations_checked": 1332,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          36,
+          18
+        ]
+      ]
+    },
+    {
+      "n": 39,
+      "q": 19,
+      "affine_permutations_checked": 936,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          38,
+          19
+        ]
+      ]
+    },
+    {
+      "n": 41,
+      "q": 20,
+      "affine_permutations_checked": 1640,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          40,
+          20
+        ]
+      ]
+    },
+    {
+      "n": 43,
+      "q": 21,
+      "affine_permutations_checked": 1806,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          42,
+          21
+        ]
+      ]
+    },
+    {
+      "n": 45,
+      "q": 22,
+      "affine_permutations_checked": 1080,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          44,
+          22
+        ]
+      ]
+    },
+    {
+      "n": 47,
+      "q": 23,
+      "affine_permutations_checked": 2162,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          46,
+          23
+        ]
+      ]
+    },
+    {
+      "n": 49,
+      "q": 24,
+      "affine_permutations_checked": 2058,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          48,
+          24
+        ]
+      ]
+    },
+    {
+      "n": 51,
+      "q": 25,
+      "affine_permutations_checked": 1632,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          50,
+          25
+        ]
+      ]
+    },
+    {
+      "n": 53,
+      "q": 26,
+      "affine_permutations_checked": 2756,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          52,
+          26
+        ]
+      ]
+    },
+    {
+      "n": 55,
+      "q": 27,
+      "affine_permutations_checked": 2200,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          54,
+          27
+        ]
+      ]
+    },
+    {
+      "n": 57,
+      "q": 28,
+      "affine_permutations_checked": 2052,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          56,
+          28
+        ]
+      ]
+    },
+    {
+      "n": 59,
+      "q": 29,
+      "affine_permutations_checked": 3422,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          58,
+          29
+        ]
+      ]
+    },
+    {
+      "n": 61,
+      "q": 30,
+      "affine_permutations_checked": 3660,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          60,
+          30
+        ]
+      ]
+    },
+    {
+      "n": 63,
+      "q": 31,
+      "affine_permutations_checked": 2268,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          62,
+          31
+        ]
+      ]
+    },
+    {
+      "n": 65,
+      "q": 32,
+      "affine_permutations_checked": 3120,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          64,
+          32
+        ]
+      ]
+    },
+    {
+      "n": 67,
+      "q": 33,
+      "affine_permutations_checked": 4422,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          66,
+          33
+        ]
+      ]
+    },
+    {
+      "n": 69,
+      "q": 34,
+      "affine_permutations_checked": 3036,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          68,
+          34
+        ]
+      ]
+    },
+    {
+      "n": 71,
+      "q": 35,
+      "affine_permutations_checked": 4970,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          70,
+          35
+        ]
+      ]
+    },
+    {
+      "n": 73,
+      "q": 36,
+      "affine_permutations_checked": 5256,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          72,
+          36
+        ]
+      ]
+    },
+    {
+      "n": 75,
+      "q": 37,
+      "affine_permutations_checked": 3000,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          74,
+          37
+        ]
+      ]
+    },
+    {
+      "n": 77,
+      "q": 38,
+      "affine_permutations_checked": 4620,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          76,
+          38
+        ]
+      ]
+    },
+    {
+      "n": 79,
+      "q": 39,
+      "affine_permutations_checked": 6162,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          78,
+          39
+        ]
+      ]
+    },
+    {
+      "n": 81,
+      "q": 40,
+      "affine_permutations_checked": 4374,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          80,
+          40
+        ]
+      ]
+    },
+    {
+      "n": 83,
+      "q": 41,
+      "affine_permutations_checked": 6806,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          82,
+          41
+        ]
+      ]
+    },
+    {
+      "n": 85,
+      "q": 42,
+      "affine_permutations_checked": 5440,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          84,
+          42
+        ]
+      ]
+    },
+    {
+      "n": 87,
+      "q": 43,
+      "affine_permutations_checked": 4872,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          86,
+          43
+        ]
+      ]
+    },
+    {
+      "n": 89,
+      "q": 44,
+      "affine_permutations_checked": 7832,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          88,
+          44
+        ]
+      ]
+    },
+    {
+      "n": 91,
+      "q": 45,
+      "affine_permutations_checked": 6552,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          90,
+          45
+        ]
+      ]
+    },
+    {
+      "n": 93,
+      "q": 46,
+      "affine_permutations_checked": 5580,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          92,
+          46
+        ]
+      ]
+    },
+    {
+      "n": 95,
+      "q": 47,
+      "affine_permutations_checked": 6840,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          94,
+          47
+        ]
+      ]
+    },
+    {
+      "n": 97,
+      "q": 48,
+      "affine_permutations_checked": 9312,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          96,
+          48
+        ]
+      ]
+    },
+    {
+      "n": 99,
+      "q": 49,
+      "affine_permutations_checked": 5940,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          98,
+          49
+        ]
+      ]
+    },
+    {
+      "n": 101,
+      "q": 50,
+      "affine_permutations_checked": 10100,
+      "stabilizer": [
+        [
+          1,
+          0
+        ],
+        [
+          100,
+          50
+        ]
+      ]
+    }
+  ]
+}

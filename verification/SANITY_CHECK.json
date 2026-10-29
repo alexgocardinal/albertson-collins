@@ -1,0 +1,2379 @@
+{
+  "status": "PASS",
+  "prime_cases": 167,
+  "prime_moment_records": [
+    {
+      "prime": 3,
+      "moment": 2,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "prime": 5,
+      "moment": 2,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "prime": 7,
+      "moment": 5,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          6,
+          3
+        ]
+      ]
+    },
+    {
+      "prime": 11,
+      "moment": 1,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          10,
+          5
+        ]
+      ]
+    },
+    {
+      "prime": 13,
+      "moment": 2,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          12,
+          6
+        ]
+      ]
+    },
+    {
+      "prime": 17,
+      "moment": 9,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          16,
+          8
+        ]
+      ]
+    },
+    {
+      "prime": 19,
+      "moment": 16,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          18,
+          9
+        ]
+      ]
+    },
+    {
+      "prime": 23,
+      "moment": 5,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          22,
+          11
+        ]
+      ]
+    },
+    {
+      "prime": 29,
+      "moment": 19,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          28,
+          14
+        ]
+      ]
+    },
+    {
+      "prime": 31,
+      "moment": 30,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          30,
+          15
+        ]
+      ]
+    },
+    {
+      "prime": 37,
+      "moment": 15,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          36,
+          18
+        ]
+      ]
+    },
+    {
+      "prime": 41,
+      "moment": 32,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          40,
+          20
+        ]
+      ]
+    },
+    {
+      "prime": 43,
+      "moment": 4,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          42,
+          21
+        ]
+      ]
+    },
+    {
+      "prime": 47,
+      "moment": 22,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          46,
+          23
+        ]
+      ]
+    },
+    {
+      "prime": 53,
+      "moment": 48,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          52,
+          26
+        ]
+      ]
+    },
+    {
+      "prime": 59,
+      "moment": 35,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          58,
+          29
+        ]
+      ]
+    },
+    {
+      "prime": 61,
+      "moment": 40,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          60,
+          30
+        ]
+      ]
+    },
+    {
+      "prime": 67,
+      "moment": 23,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          66,
+          33
+        ]
+      ]
+    },
+    {
+      "prime": 71,
+      "moment": 51,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          70,
+          35
+        ]
+      ]
+    },
+    {
+      "prime": 73,
+      "moment": 57,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          72,
+          36
+        ]
+      ]
+    },
+    {
+      "prime": 79,
+      "moment": 37,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          78,
+          39
+        ]
+      ]
+    },
+    {
+      "prime": 83,
+      "moment": 70,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          82,
+          41
+        ]
+      ]
+    },
+    {
+      "prime": 89,
+      "moment": 25,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          88,
+          44
+        ]
+      ]
+    },
+    {
+      "prime": 97,
+      "moment": 3,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          96,
+          48
+        ]
+      ]
+    },
+    {
+      "prime": 101,
+      "moment": 41,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          100,
+          50
+        ]
+      ]
+    },
+    {
+      "prime": 103,
+      "moment": 74,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          102,
+          51
+        ]
+      ]
+    },
+    {
+      "prime": 107,
+      "moment": 10,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          106,
+          53
+        ]
+      ]
+    },
+    {
+      "prime": 109,
+      "moment": 17,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          108,
+          54
+        ]
+      ]
+    },
+    {
+      "prime": 113,
+      "moment": 60,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          112,
+          56
+        ]
+      ]
+    },
+    {
+      "prime": 127,
+      "moment": 123,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          126,
+          63
+        ]
+      ]
+    },
+    {
+      "prime": 131,
+      "moment": 45,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          130,
+          65
+        ]
+      ]
+    },
+    {
+      "prime": 137,
+      "moment": 107,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          136,
+          68
+        ]
+      ]
+    },
+    {
+      "prime": 139,
+      "moment": 13,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          138,
+          69
+        ]
+      ]
+    },
+    {
+      "prime": 149,
+      "moment": 135,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          148,
+          74
+        ]
+      ]
+    },
+    {
+      "prime": 151,
+      "moment": 33,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          150,
+          75
+        ]
+      ]
+    },
+    {
+      "prime": 157,
+      "moment": 103,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          156,
+          78
+        ]
+      ]
+    },
+    {
+      "prime": 163,
+      "moment": 56,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          162,
+          81
+        ]
+      ]
+    },
+    {
+      "prime": 167,
+      "moment": 120,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          166,
+          83
+        ]
+      ]
+    },
+    {
+      "prime": 173,
+      "moment": 27,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          172,
+          86
+        ]
+      ]
+    },
+    {
+      "prime": 179,
+      "moment": 151,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          178,
+          89
+        ]
+      ]
+    },
+    {
+      "prime": 181,
+      "moment": 164,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          180,
+          90
+        ]
+      ]
+    },
+    {
+      "prime": 191,
+      "moment": 185,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          190,
+          95
+        ]
+      ]
+    },
+    {
+      "prime": 193,
+      "moment": 6,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          192,
+          96
+        ]
+      ]
+    },
+    {
+      "prime": 197,
+      "moment": 80,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          196,
+          98
+        ]
+      ]
+    },
+    {
+      "prime": 199,
+      "moment": 143,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          198,
+          99
+        ]
+      ]
+    },
+    {
+      "prime": 211,
+      "moment": 178,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          210,
+          105
+        ]
+      ]
+    },
+    {
+      "prime": 223,
+      "moment": 216,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          222,
+          111
+        ]
+      ]
+    },
+    {
+      "prime": 227,
+      "moment": 78,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          226,
+          113
+        ]
+      ]
+    },
+    {
+      "prime": 229,
+      "moment": 93,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          228,
+          114
+        ]
+      ]
+    },
+    {
+      "prime": 233,
+      "moment": 182,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          232,
+          116
+        ]
+      ]
+    },
+    {
+      "prime": 239,
+      "moment": 112,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          238,
+          119
+        ]
+      ]
+    },
+    {
+      "prime": 241,
+      "moment": 128,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          240,
+          120
+        ]
+      ]
+    },
+    {
+      "prime": 251,
+      "moment": 149,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          250,
+          125
+        ]
+      ]
+    },
+    {
+      "prime": 257,
+      "moment": 8,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          256,
+          128
+        ]
+      ]
+    },
+    {
+      "prime": 263,
+      "moment": 189,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          262,
+          131
+        ]
+      ]
+    },
+    {
+      "prime": 269,
+      "moment": 42,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          268,
+          134
+        ]
+      ]
+    },
+    {
+      "prime": 271,
+      "moment": 127,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          270,
+          135
+        ]
+      ]
+    },
+    {
+      "prime": 277,
+      "moment": 251,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          276,
+          138
+        ]
+      ]
+    },
+    {
+      "prime": 281,
+      "moment": 79,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          280,
+          140
+        ]
+      ]
+    },
+    {
+      "prime": 283,
+      "moment": 168,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          282,
+          141
+        ]
+      ]
+    },
+    {
+      "prime": 293,
+      "moment": 119,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          292,
+          146
+        ]
+      ]
+    },
+    {
+      "prime": 307,
+      "moment": 259,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          306,
+          153
+        ]
+      ]
+    },
+    {
+      "prime": 311,
+      "moment": 68,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          310,
+          155
+        ]
+      ]
+    },
+    {
+      "prime": 313,
+      "moment": 88,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          312,
+          156
+        ]
+      ]
+    },
+    {
+      "prime": 317,
+      "moment": 208,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          316,
+          158
+        ]
+      ]
+    },
+    {
+      "prime": 331,
+      "moment": 31,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          330,
+          165
+        ]
+      ]
+    },
+    {
+      "prime": 337,
+      "moment": 179,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          336,
+          168
+        ]
+      ]
+    },
+    {
+      "prime": 347,
+      "moment": 206,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          346,
+          173
+        ]
+      ]
+    },
+    {
+      "prime": 349,
+      "moment": 229,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          348,
+          174
+        ]
+      ]
+    },
+    {
+      "prime": 353,
+      "moment": 11,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          352,
+          176
+        ]
+      ]
+    },
+    {
+      "prime": 359,
+      "moment": 258,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          358,
+          179
+        ]
+      ]
+    },
+    {
+      "prime": 367,
+      "moment": 172,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          366,
+          183
+        ]
+      ]
+    },
+    {
+      "prime": 373,
+      "moment": 338,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          372,
+          186
+        ]
+      ]
+    },
+    {
+      "prime": 379,
+      "moment": 225,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          378,
+          189
+        ]
+      ]
+    },
+    {
+      "prime": 383,
+      "moment": 371,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          382,
+          191
+        ]
+      ]
+    },
+    {
+      "prime": 389,
+      "moment": 158,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          388,
+          194
+        ]
+      ]
+    },
+    {
+      "prime": 397,
+      "moment": 62,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          396,
+          198
+        ]
+      ]
+    },
+    {
+      "prime": 401,
+      "moment": 213,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          400,
+          200
+        ]
+      ]
+    },
+    {
+      "prime": 409,
+      "moment": 115,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          408,
+          204
+        ]
+      ]
+    },
+    {
+      "prime": 419,
+      "moment": 144,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          418,
+          209
+        ]
+      ]
+    },
+    {
+      "prime": 421,
+      "moment": 171,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          420,
+          210
+        ]
+      ]
+    },
+    {
+      "prime": 431,
+      "moment": 202,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          430,
+          215
+        ]
+      ]
+    },
+    {
+      "prime": 433,
+      "moment": 230,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          432,
+          216
+        ]
+      ]
+    },
+    {
+      "prime": 439,
+      "moment": 96,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          438,
+          219
+        ]
+      ]
+    },
+    {
+      "prime": 443,
+      "moment": 263,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          442,
+          221
+        ]
+      ]
+    },
+    {
+      "prime": 449,
+      "moment": 14,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          448,
+          224
+        ]
+      ]
+    },
+    {
+      "prime": 457,
+      "moment": 357,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          456,
+          228
+        ]
+      ]
+    },
+    {
+      "prime": 461,
+      "moment": 72,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          460,
+          230
+        ]
+      ]
+    },
+    {
+      "prime": 463,
+      "moment": 217,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          462,
+          231
+        ]
+      ]
+    },
+    {
+      "prime": 467,
+      "moment": 394,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          466,
+          233
+        ]
+      ]
+    },
+    {
+      "prime": 479,
+      "moment": 464,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          478,
+          239
+        ]
+      ]
+    },
+    {
+      "prime": 487,
+      "moment": 350,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          486,
+          243
+        ]
+      ]
+    },
+    {
+      "prime": 491,
+      "moment": 46,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          490,
+          245
+        ]
+      ]
+    },
+    {
+      "prime": 499,
+      "moment": 421,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          498,
+          249
+        ]
+      ]
+    },
+    {
+      "prime": 503,
+      "moment": 110,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          502,
+          251
+        ]
+      ]
+    },
+    {
+      "prime": 509,
+      "moment": 334,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          508,
+          254
+        ]
+      ]
+    },
+    {
+      "prime": 521,
+      "moment": 407,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          520,
+          260
+        ]
+      ]
+    },
+    {
+      "prime": 523,
+      "moment": 49,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          522,
+          261
+        ]
+      ]
+    },
+    {
+      "prime": 541,
+      "moment": 355,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          540,
+          270
+        ]
+      ]
+    },
+    {
+      "prime": 547,
+      "moment": 188,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          546,
+          273
+        ]
+      ]
+    },
+    {
+      "prime": 557,
+      "moment": 87,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          556,
+          278
+        ]
+      ]
+    },
+    {
+      "prime": 563,
+      "moment": 475,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          562,
+          281
+        ]
+      ]
+    },
+    {
+      "prime": 569,
+      "moment": 160,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          568,
+          284
+        ]
+      ]
+    },
+    {
+      "prime": 571,
+      "moment": 339,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          570,
+          285
+        ]
+      ]
+    },
+    {
+      "prime": 577,
+      "moment": 18,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          576,
+          288
+        ]
+      ]
+    },
+    {
+      "prime": 587,
+      "moment": 55,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          586,
+          293
+        ]
+      ]
+    },
+    {
+      "prime": 593,
+      "moment": 315,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          592,
+          296
+        ]
+      ]
+    },
+    {
+      "prime": 599,
+      "moment": 131,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          598,
+          299
+        ]
+      ]
+    },
+    {
+      "prime": 601,
+      "moment": 169,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          600,
+          300
+        ]
+      ]
+    },
+    {
+      "prime": 607,
+      "moment": 588,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          606,
+          303
+        ]
+      ]
+    },
+    {
+      "prime": 613,
+      "moment": 249,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          612,
+          306
+        ]
+      ]
+    },
+    {
+      "prime": 617,
+      "moment": 482,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          616,
+          308
+        ]
+      ]
+    },
+    {
+      "prime": 619,
+      "moment": 58,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          618,
+          309
+        ]
+      ]
+    },
+    {
+      "prime": 631,
+      "moment": 138,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          630,
+          315
+        ]
+      ]
+    },
+    {
+      "prime": 641,
+      "moment": 20,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          640,
+          320
+        ]
+      ]
+    },
+    {
+      "prime": 643,
+      "moment": 221,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          642,
+          321
+        ]
+      ]
+    },
+    {
+      "prime": 647,
+      "moment": 465,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          646,
+          323
+        ]
+      ]
+    },
+    {
+      "prime": 653,
+      "moment": 102,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          652,
+          326
+        ]
+      ]
+    },
+    {
+      "prime": 659,
+      "moment": 556,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          658,
+          329
+        ]
+      ]
+    },
+    {
+      "prime": 661,
+      "moment": 599,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          660,
+          330
+        ]
+      ]
+    },
+    {
+      "prime": 673,
+      "moment": 21,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          672,
+          336
+        ]
+      ]
+    },
+    {
+      "prime": 677,
+      "moment": 275,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          676,
+          338
+        ]
+      ]
+    },
+    {
+      "prime": 683,
+      "moment": 64,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          682,
+          341
+        ]
+      ]
+    },
+    {
+      "prime": 691,
+      "moment": 583,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          690,
+          345
+        ]
+      ]
+    },
+    {
+      "prime": 701,
+      "moment": 460,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          700,
+          350
+        ]
+      ]
+    },
+    {
+      "prime": 709,
+      "moment": 288,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          708,
+          354
+        ]
+      ]
+    },
+    {
+      "prime": 719,
+      "moment": 337,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          718,
+          359
+        ]
+      ]
+    },
+    {
+      "prime": 727,
+      "moment": 159,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          726,
+          363
+        ]
+      ]
+    },
+    {
+      "prime": 733,
+      "moment": 481,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          732,
+          366
+        ]
+      ]
+    },
+    {
+      "prime": 739,
+      "moment": 254,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          738,
+          369
+        ]
+      ]
+    },
+    {
+      "prime": 743,
+      "moment": 534,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          742,
+          371
+        ]
+      ]
+    },
+    {
+      "prime": 751,
+      "moment": 352,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          750,
+          375
+        ]
+      ]
+    },
+    {
+      "prime": 757,
+      "moment": 686,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          756,
+          378
+        ]
+      ]
+    },
+    {
+      "prime": 761,
+      "moment": 214,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          760,
+          380
+        ]
+      ]
+    },
+    {
+      "prime": 769,
+      "moment": 24,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          768,
+          384
+        ]
+      ]
+    },
+    {
+      "prime": 773,
+      "moment": 314,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          772,
+          386
+        ]
+      ]
+    },
+    {
+      "prime": 787,
+      "moment": 664,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          786,
+          393
+        ]
+      ]
+    },
+    {
+      "prime": 797,
+      "moment": 523,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          796,
+          398
+        ]
+      ]
+    },
+    {
+      "prime": 809,
+      "moment": 632,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          808,
+          404
+        ]
+      ]
+    },
+    {
+      "prime": 811,
+      "moment": 76,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          810,
+          405
+        ]
+      ]
+    },
+    {
+      "prime": 821,
+      "moment": 744,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          820,
+          410
+        ]
+      ]
+    },
+    {
+      "prime": 823,
+      "moment": 180,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          822,
+          411
+        ]
+      ]
+    },
+    {
+      "prime": 827,
+      "moment": 491,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          826,
+          413
+        ]
+      ]
+    },
+    {
+      "prime": 829,
+      "moment": 544,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          828,
+          414
+        ]
+      ]
+    },
+    {
+      "prime": 839,
+      "moment": 603,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          838,
+          419
+        ]
+      ]
+    },
+    {
+      "prime": 853,
+      "moment": 773,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          852,
+          426
+        ]
+      ]
+    },
+    {
+      "prime": 857,
+      "moment": 241,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          856,
+          428
+        ]
+      ]
+    },
+    {
+      "prime": 859,
+      "moment": 510,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          858,
+          429
+        ]
+      ]
+    },
+    {
+      "prime": 863,
+      "moment": 836,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          862,
+          431
+        ]
+      ]
+    },
+    {
+      "prime": 877,
+      "moment": 137,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          876,
+          438
+        ]
+      ]
+    },
+    {
+      "prime": 881,
+      "moment": 468,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          880,
+          440
+        ]
+      ]
+    },
+    {
+      "prime": 883,
+      "moment": 745,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          882,
+          441
+        ]
+      ]
+    },
+    {
+      "prime": 887,
+      "moment": 194,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          886,
+          443
+        ]
+      ]
+    },
+    {
+      "prime": 907,
+      "moment": 85,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          906,
+          453
+        ]
+      ]
+    },
+    {
+      "prime": 911,
+      "moment": 427,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          910,
+          455
+        ]
+      ]
+    },
+    {
+      "prime": 919,
+      "moment": 201,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          918,
+          459
+        ]
+      ]
+    },
+    {
+      "prime": 929,
+      "moment": 29,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          928,
+          464
+        ]
+      ]
+    },
+    {
+      "prime": 937,
+      "moment": 732,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          936,
+          468
+        ]
+      ]
+    },
+    {
+      "prime": 941,
+      "moment": 147,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          940,
+          470
+        ]
+      ]
+    },
+    {
+      "prime": 947,
+      "moment": 799,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          946,
+          473
+        ]
+      ]
+    },
+    {
+      "prime": 953,
+      "moment": 268,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          952,
+          476
+        ]
+      ]
+    },
+    {
+      "prime": 967,
+      "moment": 695,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          966,
+          483
+        ]
+      ]
+    },
+    {
+      "prime": 971,
+      "moment": 91,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          970,
+          485
+        ]
+      ]
+    },
+    {
+      "prime": 977,
+      "moment": 519,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          976,
+          488
+        ]
+      ]
+    },
+    {
+      "prime": 983,
+      "moment": 215,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          982,
+          491
+        ]
+      ]
+    },
+    {
+      "prime": 991,
+      "moment": 960,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          990,
+          495
+        ]
+      ]
+    },
+    {
+      "prime": 997,
+      "moment": 405,
+      "affine_stabilizers": [
+        [
+          1,
+          0
+        ],
+        [
+          996,
+          498
+        ]
+      ]
+    }
+  ],
+  "block_count_cases": 2401,
+  "exact_permutation_sanity": [
+    {
+      "n": 3,
+      "odd_order_color_preserving_permutations_tested": 0,
+      "compatible_nonidentity": 0
+    },
+    {
+      "n": 5,
+      "odd_order_color_preserving_permutations_tested": 2,
+      "compatible_nonidentity": 0
+    },
+    {
+      "n": 7,
+      "odd_order_color_preserving_permutations_tested": 26,
+      "compatible_nonidentity": 0
+    },
+    {
+      "n": 9,
+      "odd_order_color_preserving_permutations_tested": 404,
+      "compatible_nonidentity": 0
+    },
+    {
+      "n": 11,
+      "odd_order_color_preserving_permutations_tested": 10124,
+      "compatible_nonidentity": 0
+    },
+    {
+      "n": 13,
+      "odd_order_color_preserving_permutations_tested": 354374,
+      "compatible_nonidentity": 0
+    }
+  ],
+  "elapsed": 3.880108276003739,
+  "scope": "Finite algebraic/formulation sanity checks only; all-order proof uses Burnside--Schur and induction."
+}

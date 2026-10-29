@@ -1,0 +1,37 @@
+Affine stabilizer of a canonical half-interval
+Independent verification, 28 October 2026
+
+Lemma (valid for every odd modulus, including composite moduli).
+Let n=2q+1>=3, let R=Z/nZ, and put I={0,1,...,q}. If
+f(x)=alpha*x+beta is an affine permutation of R (alpha a unit), then
+f(I)=I if and only if either
+  (alpha,beta)=(1,0), or (alpha,beta)=(-1,q).
+Thus the full affine stabilizer is {id, x -> q-x}. In particular, an odd-order subgroup of the affine permutation group has trivial stabilizer of I.
+
+Proof.
+For d in R, define C(d)=|I intersect (I+d)|. Clearly C(0)=q+1.
+For an integer representative 1<=d<=q, the translate I+d has the representatives d,d+1,...,q+d. Since q+d<=2q=n-1, these do not wrap around modulo n. Its intersection with I is precisely {d,d+1,...,q}, so
+  C(d)=q+1-d.
+For every d, translating the intersection I intersect (I+d) by -d gives
+  (I-d) intersect I,
+hence C(d)=C(-d). Therefore, for 1<=d<=2q,
+  C(d)=q+1-min(d,n-d).
+In particular, among nonzero d, the maximum q is attained exactly at d=1 and d=-1. This statement includes n=3: the two residues 1 and -1 are distinct and are all the nonzero residues.
+
+Now assume f(I)=I. For any d,
+  f(I+d)=f(I)+alpha*d=I+alpha*d.
+A bijection maps the intersection of two sets to the intersection of their images. Thus
+  f(I intersect (I+d))=I intersect (I+alpha*d),
+and consequently C(alpha*d)=C(d). Applying this to d=1, and using that alpha is a unit and thus nonzero, gives alpha=1 or alpha=-1.
+
+If alpha=1, then I+beta=I. This implies C(beta)=q+1. The formula for C shows that only beta=0 has that value.
+
+If alpha=-1, let R_q(x)=q-x. This reflection visibly permutes I. The composition f o R_q is the translation x -> x+(beta-q), and it also preserves I. The translation case gives beta=q. Conversely, both id and R_q preserve I.
+
+R_q is a nonidentity involution: R_q o R_q=id, and R_q(0)=q is nonzero because q>=1 and q<n. Therefore an odd-order group cannot contain it. This proves the odd-order stabilizer assertion. No primality, centroid, moment identity, division, or characteristic-three exception is needed for the affine interval lemma itself.
+
+Use in the main proof.
+Burnside--Schur still supplies prime degree and affine coordinates in the primitive case. Once the affine coordinate alignment is established, apply the lemma directly with n=p. The imprimitive induction remains unchanged. The general odd-modulus version does not alone replace Burnside--Schur because an arbitrary imprimitive group containing the translations need not be affine.
+
+Finite independent support (not a premise of the proof).
+The standard-library exhaustive check considered every odd n=3,5,...,101, every unit alpha mod n, and every beta mod n. It directly constructed each image set f(I), computed every C(d), checked the displayed formula and its nonzero maximizers, and checked that the preserving pairs were exactly (1,0) and (n-1,q). All 143,346 affine permutations across 50 moduli passed. Detailed machine results: verification/affine_interval_check.json.

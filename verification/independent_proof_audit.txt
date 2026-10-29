@@ -1,0 +1,61 @@
+Independent mathematical audit of the canonical-half theorem
+Date: 28 October 2026 (client date)
+Reviewer: independent model instance; this is not external human peer review.
+
+Conclusion
+----------
+I find the universal group theorem mathematically correct, conditional only on the classical Burnside--Schur theorem in precisely its standard permutation-action form. The tournament corollary follows, and it is the prescribed-coloring conclusion, not merely existence of some two-color distinguishing coloring. This audit makes no novelty or priority determination and is not a Lean verification.
+
+Objects and quantifiers
+-----------------------
+The claim concerns every odd integer n and every odd-order subgroup G of Sym(Z/nZ) containing the specific translation tau:x -> x+1. The set I_n uses the representatives 0,...,(n-1)/2. A finite set has a trivial setwise stabilizer when the only g with g(I_n)=I_n is the identity.
+
+1. Base case and induction
+--------------------------
+n=1 is valid because Sym(1) is trivial. For n>1 odd, n>=3. Strong induction applies to every proper odd divisor a,b>1. A translate I+t is regular whenever I is: if g fixes I+t, then tau^(-t) g tau^t fixes I. A set and its complement have identical stabilizers. These two observations are essential and are correctly used for the low block intersections.
+
+2. Structure of an invariant block system
+-----------------------------------------
+A nontrivial block B containing 0 is a subgroup of the additive cyclic group. For t in B, t is in both B and B+t; the block property and tau^t in G give B+t=B. This implies closure under addition and additive inverses (0 in B+t). Every other block is a translate of B, because tau is transitive. Thus for n=ab and 1<a,b<n, B consists of multiples of a, and the blocks are B_r={r+at:0<=t<b}, 0<=r<a. This requires no assumption that the whole group is cyclic, affine, or solvable. Odd n implies both factors odd.
+
+3. Block intersection arithmetic
+---------------------------------
+For a=2u+1,b=2v+1, (ab-1)/2=av+u. Each representative r+at lies in the canonical interval if and only if t<=v for r<=u, and t<=v-1 for r>u. Consequently the high blocks have size v+1 exactly for r in I_a, and the others have size v. There is no wraparound ambiguity because 0<=r+at<ab in these coordinates.
+
+4. First induction application
+-------------------------------
+The permutation group induced on blocks is an image of G and has odd order. tau induces r -> r+1. If g fixes I_n setwise, its induced block permutation preserves intersection cardinality, hence I_a. Induction makes this induced permutation the identity. Therefore g belongs to the setwise stabilizer of every B_r.
+
+5. Second induction application
+--------------------------------
+The action of the setwise stabilizer G_{B_r} on B_r is an image of a subgroup of G, so has odd order. It contains tau^a, whose restriction is t -> t+1. For a high block the preserved subset is I_b. For a low block it is {0,...,v-1}, whose complement in Z_b is {v,...,2v}=I_b+v. Applying induction, translation conjugacy and complement equivalence forces the restriction of g to B_r to be the identity in either case. Thus g fixes all vertices.
+
+6. Primitive reduction
+-----------------------
+The needed external theorem is: a primitive finite permutation group containing a regular cyclic subgroup is either 2-transitive or permutationally isomorphic to a subgroup of AGL_1(p) in prime degree p. The word permutationally is important. The proof uses this exact action-level conclusion. For n>=3, a 2-transitive group has order divisible by n(n-1), so has even order. The surviving case is prime degree with affine action. Parent review must verify the original theorem statement and exact conjecture from primary sources.
+
+7. Alignment of affine coordinates
+-----------------------------------
+If f conjugates G to an affine group over F_p, then f tau f^(-1) has order p. An affine map x -> alpha*x+beta with alpha!=1 has a fixed point and is conjugate to multiplication by alpha, so its order divides p-1. Thus the image of tau is translation by c!=0. The relation f(j+1)=f(j)+c gives f(j)=f(0)+jc. Renormalizing the target coordinate by x -> (x-f(0))/c identifies it with the original residue coordinate. This step rules out the potential gap of applying interval arithmetic after an arbitrary relabeling.
+
+8. The affine half-interval lemma
+----------------------------------
+For p>=5, put q=(p-1)/2 and m=q+1. In F_p, m=1/2, q=-1/2. Since m!=0, an affine stabilizer fixes the centroid c=q/2=-1/4. The usual sum identities give
+sum_{j=0}^q (j-c)^2=m(m^2-1)/12=-1/32.
+The denominators 2,3,4,12,32 are invertible for p>=5, and the moment is nonzero. Under a centered affine map it is multiplied by alpha^2. Invariance therefore gives alpha^2=1, hence alpha=1 or -1 in the field. alpha=1 and centroid fixation force beta=0. alpha=-1 and centroid fixation give x -> 2c-x, a nonidentity involution; Lagrange excludes it from an odd-order group. The exceptional characteristic p=3 is separately covered because |AGL_1(3)|=6 and an odd-order subgroup containing translations has order3. Alternatively, any affine permutation preserving a two-element set fixes its complement, and is identity or a transposition, so oddness immediately suffices.
+
+9. Tournament application
+--------------------------
+Every nonidentity involution on a finite set has a two-cycle. An automorphism of a tournament cannot swap u,v, since it would map the unique arc u->v to v->u. Thus the finite automorphism group has no involution, and Cauchy's theorem gives odd order. A cyclic tournament has tau as an automorphism by its difference-set definition. Preserving named colors is exactly stabilizing I_n. The theorem proves that this coloring is distinguishing for every connector set and every odd order. It need not be a proper graph coloring; distinguishing colorings concern symmetry breaking.
+
+Presentation improvements
+--------------------------
+- Isolate the affine interval stabilizer lemma and the block intersection lemma.
+- State all finite-group image/subgroup oddness uses explicitly for formalization.
+- Make clear that regular means trivial setwise stabilizer, not regular graph degree or a regular permutation action.
+- Do not rely on finite computational checks as premises of the all-orders theorem.
+- Distinguish mathematical correctness of the argument, a fully kernel-checked proof, and novelty/priority. Only the first is concluded here.
+
+No mathematical gap found.
+
+Root follow-up: the exact conjecture and action-level Burnside--Schur statement were independently opened and checked in the primary sources listed in literature_audit.txt. The final rewritten paper was also reread with no gap identified.

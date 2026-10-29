@@ -1,0 +1,10 @@
+digraph tournament {
+  graph [layout=circo];
+  node [style=filled, shape=circle];
+  0 [fillcolor="#f6b95d", label="0"];
+  1 [fillcolor="#f6b95d", label="1"];
+  2 [fillcolor="#8fc4ea", label="2"];
+  0 -> 1;
+  1 -> 2;
+  2 -> 0;
+}

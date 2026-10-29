@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "method": "Exact directed-adjacency automorphism backtracking",
+  "orders": [
+    {
+      "n": 1,
+      "connector_sets": 1,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 3,
+      "connector_sets": 2,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 5,
+      "connector_sets": 4,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 7,
+      "connector_sets": 8,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 9,
+      "connector_sets": 16,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 11,
+      "connector_sets": 32,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 13,
+      "connector_sets": 64,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 15,
+      "connector_sets": 128,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 17,
+      "connector_sets": 256,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 19,
+      "connector_sets": 512,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 21,
+      "connector_sets": 1024,
+      "all_canonical_colorings_distinguishing": true
+    },
+    {
+      "n": 23,
+      "connector_sets": 2048,
+      "all_canonical_colorings_distinguishing": true
+    }
+  ],
+  "total_tournaments": 4095,
+  "scope": "Finite checks of all labelled connector sets at these orders; not an all-order proof."
+}

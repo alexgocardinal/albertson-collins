@@ -1,0 +1,30 @@
+{
+  "status_date": "2026-10-29",
+  "lean_version": "4.19.0",
+  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "platform": "macOS, Apple Silicon",
+  "compiled": true,
+  "completed_components_kernel_checked": true,
+  "universal_group_theorem_proved": false,
+  "full_conjecture_formally_verified": false,
+  "new_project_axioms": false,
+  "evidence": "Successful lake build outputs supplied by Alex Chan in this chat.",
+  "verified_components": [
+    "Elementary stabilizer and tournament lemmas",
+    "Odd order of tournament automorphism groups",
+    "Conditional reduction to the main group theorem",
+    "Cyclic tournament construction and translation automorphisms",
+    "Block intersection arithmetic and counts",
+    "Generation of all translations by the shift",
+    "Blocks containing zero give additive subgroups",
+    "Group images of blocks are additive translates",
+    "Divisor description of cyclic subgroups",
+    "Nontrivial blocks give two smaller odd factors"
+  ],
+  "remaining": [
+    "Coordinate equivalences and induced group actions",
+    "Strong induction proving the main group theorem",
+    "Primitive-case reduction and affine interval argument",
+    "A formal proof of the required Burnside-Schur theorem"
+  ]
+}

@@ -1,0 +1,297 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper,margin=0.86in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,booktabs,microtype}
+\usepackage{hyperref,fancyhdr}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue,
+pdftitle={Albertson--Collins: proof and verification},pdfauthor={Prepared for Alex Chan}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{Albertson--Collins: proof and verification}
+\fancyhead[R]{28 October 2026}
+\fancyfoot[C]{\thepage}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\F}{\mathbb F}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\AGL}{\operatorname{AGL}}
+\begin{document}
+{\LARGE\bfseries The canonical-coloring theorem}\\[6pt]
+{\large Mathematical assessment and working guide for Alex Chan}\\
+Harvard University and NBER \quad \texttt{achan@hbs.edu}
+
+\section*{1. Assessment and exact scope}
+\textbf{Assessment: I find no mathematical gap in the uploaded all-orders
+argument.} With the classical Burnside--Schur theorem as an external
+mathematical input, it proves the prescribed-coloring conjecture for
+\emph{every} cyclic tournament. This is a mathematical review, not a
+Lean kernel certificate or external human peer review. A bounded
+literature search did not locate a later complete resolution; priority
+is not established.
+
+Write $n=2q+1\geq3$, and let $S$ contain exactly one of $d,-d$ for each
+nonzero residue modulo $n$. The tournament $T(n;S)$ has an arc $i\to j$
+when $j-i\in S$. The required coloring is
+\[
+ \lambda(i)=1\ (0\leq i\leq q),\qquad
+ \lambda(i)=2\ (q<i\leq2q).
+\]
+It is \emph{distinguishing} when its only color-preserving
+automorphism is the identity. It need not be a proper vertex coloring.
+
+This is exactly Conjecture 2 in Meslem--Sopena [1]. The original
+Albertson--Collins note [2, Conjecture 2.4] uses the smaller interval
+$L=\{0,\ldots,q-1\}$. Its complement is
+$\{q,\ldots,2q\}=I_n+q$, where $I_n=\{0,\ldots,q\}$.
+A set and its complement have the same stabilizer, and translating
+a set conjugates its stabilizer. Thus these formulations are equivalent.
+The existence of \emph{some} distinguishing two-coloring was already
+known from Gluck's theorem; the prescribed interval is the result at issue.
+
+\textbf{Stronger theorem.} If $n$ is a positive odd integer and
+$G\leq\Sym(\Z_n)$ has odd order and contains $\tau:x\mapsto x+1$,
+then the only $g\in G$ satisfying $g(I_n)=I_n$ is the identity.
+
+A \emph{regular subset} means a subset with trivial setwise stabilizer.
+The theorem covers all connector sets without using their details.
+There is an infinite family with $2^q$ connector sets at order $2q+1$,
+so no finite collection of graphs alone can prove the statement.
+
+\textbf{External input.} Burnside--Schur [3, opening theorem, p.~1]
+says that a primitive action with a cyclic regular subgroup is either
+doubly transitive or has prime degree and is conjugate to an affine
+action over the prime field. The action-level conclusion is essential:
+an abstract group isomorphism would not suffice.
+
+\textbf{What changed in the new paper.} The supplied induction and
+coordinate-normalization argument are retained. An elementary
+interval-intersection lemma replaces the finite-field second-moment
+calculation. Both versions have been checked.
+
+\newpage
+\section*{2. Full proof: the block-system step}
+We prove the stronger theorem by strong induction on odd $n$. For
+$n=1$, there is only the identity permutation. Assume the claim is
+known for every smaller positive odd degree.
+
+First record two consequences of the induction hypothesis. A set
+and its complement have identical stabilizers. Also, if a group
+contains all translations, then regularity of $I$ implies regularity
+of $I+t$: a permutation $h$ preserving $I+t$ gives
+$\tau^{-t}h\tau^t$ preserving $I$. These facts handle the smaller
+half-intervals that appear inside blocks.
+
+The group $G$ is transitive because it contains the full $n$-cycle
+$\tau$. Suppose it has a nontrivial invariant block system.
+Let $B$ be its block containing $0$. For $t\in B$, the point $t$
+belongs to both $B$ and $B+t$. The block property gives $B+t=B$.
+This implies closure under addition and also gives $-t\in B$,
+since $0\in B+t$. Hence $B$ is an additive subgroup of $\Z_n$.
+
+Every subgroup of $\Z_n$ consists of multiples of a divisor $a$
+of $n$. Let $n=ab$. All blocks are translates of $B$, so they are
+\[
+ B_r=\{r+at:0\leq t<b\},\qquad r=0,\ldots,a-1.
+\]
+Nontriviality gives $1<a,b<n$, and both factors are odd. Write
+$a=2u+1$ and $b=2v+1$. Since $(ab-1)/2=av+u$,
+\[
+ I_n\cap B_r=
+ \begin{cases}
+ \{r+at:0\leq t\leq v\},&r\leq u,\\
+ \{r+at:0\leq t<v\},&r>u.
+ \end{cases}
+\]
+Thus the intersection counts are $v+1$ exactly for block indices
+$0,\ldots,u$, and $v$ for the others. These coordinates have
+$0\leq r+at<ab$, so there is no wraparound in the calculation.
+
+Take $g\in G$ with $g(I_n)=I_n$. Its induced permutation on blocks
+preserves these counts, hence preserves $I_a$.
+The full induced group is an image of $G$, so has odd order.
+It contains $r\mapsto r+1$ on $\Z_a$.
+Induction makes the induced permutation of $g$ the identity.
+Consequently $g$ fixes each block \emph{setwise}.
+
+Now restrict to $B_r$. The image on $B_r$ of its setwise stabilizer
+in $G$ has odd order. It contains $\tau^a$, which is
+$t\mapsto t+1$ in the coordinate $r+at\leftrightarrow t\in\Z_b$.
+The preserved subset is either $I_b=\{0,\ldots,v\}$ or
+$\{0,\ldots,v-1\}$. The latter has complement
+$\{v,\ldots,2v\}=I_b+v$. Induction, complementing and translating
+as appropriate, therefore makes the restriction of $g$ the identity.
+This holds in every block, so $g$ is the identity.
+
+\textbf{Example at $n=9$.} For $a=b=3$, the blocks are
+$\{0,3,6\},\{1,4,7\},\{2,5,8\}$. Their intersections with
+$I_9=\{0,1,2,3,4\}$ have sizes $2,2,1$. The quotient argument
+fixes the blocks; the within-block argument fixes their points.
+
+\newpage
+\section*{3. Full proof: the primitive step and the tournament}
+Suppose the action is primitive. It cannot be doubly transitive:
+such a group has order divisible by the number $n(n-1)$ of ordered
+distinct pairs, which is even for $n>1$ odd. Burnside--Schur
+therefore gives prime degree $n=p$ and a bijection
+$f:\Z_p\to\F_p$ conjugating $G$ into $\AGL_1(p)$.
+
+\textbf{The original labels are retained.} The permutation
+$f\tau f^{-1}$ has order $p$. An affine map $z\mapsto\alpha z+\beta$
+with $\alpha\neq1$ has a fixed point; moving that point to $0$
+conjugates it to multiplication by $\alpha$. Its order divides
+$p-1$. Hence $f\tau f^{-1}$ is translation by some $c\neq0$, and
+\[
+ f(j+1)=f(j)+c,\qquad f(j)=f(0)+jc.
+\]
+Renormalizing by $z\mapsto(z-f(0))/c$ gives the original residue
+coordinate. Every element of $G$ is therefore affine
+\emph{in the coordinates defining $I_p$}.
+
+\textbf{Affine interval lemma.} Let $p=2q+1$ and
+$I=\{0,\ldots,q\}$. For a residue $d$ put
+$C(d)=|I\cap(I+d)|$. For $1\leq d\leq q$,
+$I\cap(I+d)=\{d,\ldots,q\}$; also $C(-d)=C(d)$ by translation.
+Thus
+\[
+ C(0)=q+1,\qquad
+ C(d)=q+1-\min\{d,p-d\}\quad(1\leq d\leq2q).
+\]
+The largest value at nonzero shifts is $q$, occurring exactly at
+$d=\pm1$. If $h(x)=\alpha x+\beta$ preserves $I$, then it maps
+$I+d$ to $I+\alpha d$, giving $C(\alpha d)=C(d)$.
+Taking $d=1$ forces $\alpha=\pm1$.
+
+If $\alpha=1$, a nonzero $\beta$ would imply
+$C(\beta)=|I|=q+1$, impossible. Thus $h$ is the identity.
+The reflection $r(x)=q-x$ preserves $I$.
+If $\alpha=-1$, then $r\circ h$ is a translation preserving $I$,
+so it is the identity and $h=r$. This is a nonidentity involution,
+excluded by odd group order. The primitive case, and the induction,
+are complete.
+
+The affine lemma works even at $p=3$. It also holds over every odd
+composite modulus when $\alpha$ is a unit, although the primitive
+case only needs a prime modulus.
+
+\textbf{Tournament corollary.} A finite tournament has odd-order
+automorphism group. Otherwise Cauchy's theorem gives a nonidentity
+involution. Such a permutation swaps some distinct $u,v$, reversing
+the unique arc joining them, and therefore cannot be an automorphism.
+A cyclic tournament has $\tau$ among its automorphisms because
+translation preserves all differences. Apply the group theorem to
+$\Aut(T)$. Preserving the two colors is precisely preserving
+$I_{2q+1}$ setwise, so only the identity can do so.
+This proves the conjecture for every $q$ and every connector set.
+
+\newpage
+\section*{4. The supplied proof and computational verification}
+The uploaded second-moment argument is also valid. For $p\geq5$,
+put $m=(p+1)/2$ and work in $\F_p$. The centroid of $I_p$ is
+$c=(m-1)/2=-1/4$. The sum-of-squares identity gives
+\[
+ M=\sum_{j=0}^{m-1}(j-c)^2
+   =\frac{m(m^2-1)}{12}
+   =-\frac1{32}\neq0.
+\]
+All denominators are invertible for $p\geq5$. A preserving affine
+map fixes $c$ and multiplies $M$ by $\alpha^2$, so $\alpha^2=1$.
+The positive multiplier gives the identity; the negative multiplier
+gives an involution. The supplied proof treats $p=3$ separately,
+avoiding division by $3$ there.
+
+\textbf{Actual graphs.} The Python module constructs any input
+$T(n;S)$, validates $S$, and exports arcs, adjacency matrices,
+directed DOT files, and SVG diagrams. The included examples are:
+\begin{center}
+\begin{tabular}{@{}lrcrr@{}}
+\toprule
+Example & $n$ & $S$ & $|\Aut(T)|$ & Colored order\\
+\midrule
+Directed triangle & 3 & $\{1\}$ & 3 & 1\\
+Consecutive connectors & 5 & $\{1,2\}$ & 5 & 1\\
+Paley tournament & 7 & $\{1,2,4\}$ & 21 & 1\\
+Three triangles in a cycle & 9 & $\{1,3,4,7\}$ & 81 & 1\\
+\bottomrule
+\end{tabular}
+\end{center}
+The final example is the imprimitive composition $C_3[C_3]$.
+Checking translations alone would miss many of its automorphisms.
+The implemented search uses arbitrary adjacency-preserving
+permutations, not an assumed affine family.
+
+\textbf{Checks completed.}
+\begin{itemize}
+\item All $4{,}094$ connector sets of orders $3,5,\ldots,23$, plus
+the singleton control, passed exact canonical-coloring checks.
+\item An independent all-permutations oracle matched the
+automorphism engine in $2{,}258$ cases.
+\item All $143{,}346$ affine permutations over the 50 odd moduli
+from 3 to 101 passed the affine interval lemma check.
+\item The supplied sanity program was rerun: 167 odd primes below
+1,000, 2,401 factor pairs, and all relevant odd-order color-preserving
+permutations through degree 13 passed.
+\end{itemize}
+These finite checks support the formulation and code; they are
+\emph{not premises} of the all-orders proof. The unrelated conjecture
+searches in the Round41 archive are not used and have not been
+re-certified here.
+
+\textbf{Provenance.} The separately attached PDF and the PDF inside
+the archive have identical text after whitespace normalization.
+The project includes input hashes, an independent proof audit, the
+new affine-lemma check, and machine-readable finite-check results.
+
+\newpage
+\section*{5. Formalization and publication}
+\textbf{Lean status.} The supplied Lean files are a foundation,
+not a complete formal proof. Lean and Lake are unavailable in this
+execution environment, so no file has been compiled or kernel-checked.
+Comments and the Lean README distinguish proposed proofs, conditional
+interfaces, and remaining mathematical obligations.
+
+The main remaining work is the universal group theorem: classify
+translation-invariant blocks, construct quotient and within-block
+actions, prove the interval counts, and carry out strong induction.
+The primitive step needs the action-level Burnside--Schur theorem,
+coordinate normalization, and the affine interval lemma.
+Absence of \texttt{sorry} alone does not make a conditional theorem
+unconditional. A future certificate should expose dependencies with
+\texttt{\#print axioms}; treating Burnside--Schur as an unproved axiom
+would produce a relative certificate.
+
+\textbf{Paper status.} The accompanying short article contains the
+full proof and the supplied author information. It is a submission
+draft, with no claim of journal acceptance, Lean verification, or
+established priority. The current literature search checked primary
+papers and targeted later work, but did not exhaust MathSciNet,
+zbMATH, or unpublished work. An independent human reading and a
+citation-forward novelty check remain useful before submission.
+Journal-specific preparation notes are included separately.
+
+\textbf{Primary references checked.}
+\begin{enumerate}
+\item K. Meslem and E. Sopena, \emph{On the distinguishing number of
+cyclic tournaments: Towards the Albertson--Collins Conjecture},
+Discrete Applied Mathematics \textbf{266} (2019), 219--236.
+Conjecture 2; \href{https://arxiv.org/html/1608.04866v4}{arXiv:1608.04866v4}.
+\item M. O. Albertson and K. L. Collins, \emph{A note on breaking the
+symmetries of tournaments}, Congressus Numerantium \textbf{136}
+(1999), 129--131. Conjecture 2.4;
+\href{https://kcollins.web.wesleyan.edu/publications/symnote-saks.pdf}{coauthor's primary copy}.
+\item S. Evdokimov and I. Ponomarenko, \emph{A new look at the
+Burnside--Schur theorem}, Bulletin of the London Mathematical Society
+\textbf{37} (2005), no. 4, 535--546. Opening theorem, p. 1;
+\href{https://arxiv.org/pdf/math/0310373}{arXiv:math/0310373}.
+\item D. Gluck, \emph{Trivial set-stabilizers in finite permutation
+groups}, Canadian Journal of Mathematics \textbf{35} (1983), no. 1,
+59--67. Corollary 1;
+\href{https://doi.org/10.4153/CJM-1983-005-2}{doi:10.4153/CJM-1983-005-2}.
+\end{enumerate}
+
+\textbf{Continue from this package.} Compile the elementary Lean
+layer in a pinned Lean/mathlib environment, then replace the
+conditional group-theorem interface with the induction proof.
+The project README gives the source files and reproduction commands.
+\end{document}

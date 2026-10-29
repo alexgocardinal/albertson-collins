@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-29",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 220,
+      "sha256": "2ba7fb8e10ef8e171991e3ace0c4de224eda8ef622b18a0e97358da040638db7"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2317,
+      "sha256": "690b64ab4daaec484d2840235053fb6f58518dfea9f20f2919479b332aba9c8c"
+    },
+    {
+      "path": "build_pdfs.py",
+      "size_bytes": 812,
+      "sha256": "6b832981e71678e4c6b8ca325b952f9d48048e4a654a1755135e55a7e9c35248"
+    },
+    {
+      "path": "code/README.md",
+      "size_bytes": 4403,
+      "sha256": "546d2ea12e35466f4e866948a249111f330abe8b1228c5125e120aed71f54a01"
+    },
+    {
+      "path": "code/check_implementation.py",
+      "size_bytes": 3200,
+      "sha256": "c6207fe7dee16504e76845854fa9dcfe3dadd607eb2ba50f8fb24d22f67e93c3"
+    },
+    {
+      "path": "code/cyclic_tournaments.py",
+      "size_bytes": 15464,
+      "sha256": "af1d35be7e22dc24cbf0e60448ddf1400e9f5a3b8936c903507dd6b728a700f9"
+    },
+    {
+      "path": "code/finite_check_results.json",
+      "size_bytes": 1542,
+      "sha256": "f1e60e933800cc39f30aa6bc5baeb9f9f006ac0492b90d437d5b59bd63b1dbf3"
+    },
+    {
+      "path": "code/implementation_check_results.json",
+      "size_bytes": 440,
+      "sha256": "11694837d56c38c0bb9551b87a1ee48ea079d1824defce6a60ae536073d841cc"
+    },
+    {
+      "path": "code/plot_examples.py",
+      "size_bytes": 2423,
+      "sha256": "7bf2af406a4d65199062c284bc3804c818afdd3c2001b451bb65beaa82bbfb52"
+    },
+    {
+      "path": "graphs/c3.dot",
+      "size_bytes": 228,
+      "sha256": "71254f240b78e35fe9675b1472fcb3f54845bd720b34e76d986c3de26ff299e8"
+    },
+    {
+      "path": "graphs/c3.json",
+      "size_bytes": 810,
+      "sha256": "2530ca71c4a69c2447ca1f47aa4d291ac68228e1470e403cb2f6d2c2aada847c"
+    },
+    {
+      "path": "graphs/c3.svg",
+      "size_bytes": 1962,
+      "sha256": "ecf037c3e9c1467d2015c4ba0c41f32d3f8ee7f5115b9172944b9a98ff2e128d"
+    },
+    {
+      "path": "graphs/c3_adjacency.csv",
+      "size_bytes": 48,
+      "sha256": "a9db33aa071432a40aee59865787de1ffec6a1f561c4ac57bbe97f41c0ee72ca"
+    },
+    {
+      "path": "graphs/c3_arcs.csv",
+      "size_bytes": 30,
+      "sha256": "c9193bd3bf64bc1233275b67db7be50ddae1545324884626c8d0932a820522d2"
+    },
+    {
+      "path": "graphs/examples_overview.png",
+      "size_bytes": 454369,
+      "sha256": "9c7656177dd8a634f2b6c98b974def4940c7224e218503a4f4952b9d876f5cef"
+    },
+    {
+      "path": "graphs/examples_summary.json",
+      "size_bytes": 1062,
+      "sha256": "8f2228e54b228f4dd087b31e3c0869fa3fb0e79d01f1230a915a37c2386ff438"
+    },
+    {
+      "path": "graphs/paley7.dot",
+      "size_bytes": 560,
+      "sha256": "3bff069dca535c9b178f4d097bd288c81c4e853d98ca16c88a4b1cbe6c1d61da"
+    },
+    {
+      "path": "graphs/paley7.json",
+      "size_bytes": 1904,
+      "sha256": "5e4b54bbb35fe5bca8458edd603459162a026e1852206092c2e375e2c1ebd40b"
+    },
+    {
+      "path": "graphs/paley7.svg",
+      "size_bytes": 5408,
+      "sha256": "077e4d705989d5fb9f3b91e710478cfc9b3a9cd28d9856bf478c2122c35bfa91"
+    },
+    {
+      "path": "graphs/paley7_adjacency.csv",
+      "size_bytes": 148,
+      "sha256": "046e8a7de23cfffe769c03cee24478cd3d700e6dd6082e9fb0b808a16753d2a9"
+    },
+    {
+      "path": "graphs/paley7_arcs.csv",
+      "size_bytes": 120,
+      "sha256": "84724ae2085d7cd0831f4524324c9ca3b1a1c13dce0a275fd03afda3fa6dc3d1"
+    },
+    {
+      "path": "graphs/regular5.dot",
+      "size_bytes": 374,
+      "sha256": "e2f1becb27973c241a6afd38f39780226fe39d4c6d9f2cd8caf19c45067cbcf7"
+    },
+    {
+      "path": "graphs/regular5.json",
+      "size_bytes": 1271,
+      "sha256": "b2d16f547b82e4c4e7cdf71ae5f894296ae3f00f0f01340cb8642cccd029ec66"
+    },
+    {
+      "path": "graphs/regular5.svg",
+      "size_bytes": 3403,
+      "sha256": "563d11a3a89aa5fd9050def22e1ed34bb50721202ddfa2952d5ca228dfab59dc"
+    },
+    {
+      "path": "graphs/regular5_adjacency.csv",
+      "size_bytes": 90,
+      "sha256": "4fac7a4b20406f5d843fdde7f603f39dd387a08732c5eb9428b69dfbad0afb8a"
+    },
+    {
+      "path": "graphs/regular5_arcs.csv",
+      "size_bytes": 65,
+      "sha256": "d1830482a81a31d2c1b54a856cabcfe1f83f5f67891a9f355da29234e6476dd2"
+    },
+    {
+      "path": "graphs/wreath9.dot",
+      "size_bytes": 786,
+      "sha256": "bc0348d89c745aa796743e87040306d8eb24680eaf6eeb9a19afd2717ee48615"
+    },
+    {
+      "path": "graphs/wreath9.json",
+      "size_bytes": 2730,
+      "sha256": "f26807c34e406146a3c9d1770f6feee768f9470688b8d133ae830170065f3978"
+    },
+    {
+      "path": "graphs/wreath9.svg",
+      "size_bytes": 7986,
+      "sha256": "8a6425da3e23346b97c00666abb65fede31206dfa7f6c746e5280e29dbb4cdae"
+    },
+    {
+      "path": "graphs/wreath9_adjacency.csv",
+      "size_bytes": 222,
+      "sha256": "83f8d9cfd24fb85c7c65303aaf4c3c8bc7634cfddef3bcd1d859d706ef8335c4"
+    },
+    {
+      "path": "graphs/wreath9_arcs.csv",
+      "size_bytes": 195,
+      "sha256": "b9f7ae8cd026826d2a4c24e6ae37ca1d40fde93c8be0618b859264c0398d8e44"
+    },
+    {
+      "path": "lean/AlbertsonCollins.lean",
+      "size_bytes": 1062,
+      "sha256": "38ead32313cc9c162dbcc9685c69d37f14dee4a6a01306b7d8339de42465cc8f"
+    },
+    {
+      "path": "lean/AlbertsonCollins/BlockActions.lean",
+      "size_bytes": 1820,
+      "sha256": "483fdef3afb41e5d691a2d669e62ce907565c9204b421fe90985fc8818baf806"
+    },
+    {
+      "path": "lean/AlbertsonCollins/BlockArithmetic.lean",
+      "size_bytes": 3378,
+      "sha256": "9a798e95a71df8219e736c50e3d2f8f7f73b6c694a1ce69f14c4080486f92956"
+    },
+    {
+      "path": "lean/AlbertsonCollins/BlockCosets.lean",
+      "size_bytes": 1406,
+      "sha256": "f98aa8a90eff27e6de445767b80bfc6bc07e833db26c24bcf992e43d06a719ec"
+    },
+    {
+      "path": "lean/AlbertsonCollins/Cyclic.lean",
+      "size_bytes": 3668,
+      "sha256": "f15fc96cf470f7827a8cf56d1106d9188ebc37e34ffed7cd055a482d00e06a04"
+    },
+    {
+      "path": "lean/AlbertsonCollins/CyclicSubgroups.lean",
+      "size_bytes": 5189,
+      "sha256": "af313e9f88476c558245175aaf4263ac3dd6f33a7485660159db58125affb06b"
+    },
+    {
+      "path": "lean/AlbertsonCollins/Elementary.lean",
+      "size_bytes": 4918,
+      "sha256": "08086c87ea383b7bd1908edaeeb8b2c420a3fb0a983a37c95cb2741f820acae3"
+    },
+    {
+      "path": "lean/AlbertsonCollins/GroupBlocks.lean",
+      "size_bytes": 1524,
+      "sha256": "a0f9351ed0d13702479453b03f4364b007ac37ff068191263405c50bd0326bb5"
+    },
+    {
+      "path": "lean/AlbertsonCollins/GroupInterface.lean",
+      "size_bytes": 4699,
+      "sha256": "015709b34297369c7f4389710144ba208d619784cea97c2d3626325a2f4068d5"
+    },
+    {
+      "path": "lean/AlbertsonCollins/Obligations.lean",
+      "size_bytes": 1672,
+      "sha256": "0ad26aadb73e3edce0b034a9855a285a1c49ff02cefd4e08a63e08fb4a06b3af"
+    },
+    {
+      "path": "lean/AlbertsonCollins/TranslationGeneration.lean",
+      "size_bytes": 1381,
+      "sha256": "d8c1f4241abd6d6efc485a085dce4f7b9ab84b712307268d3ec3b588fc938636"
+    },
+    {
+      "path": "lean/INITIAL_FORMALIZATION_NOTES.md",
+      "size_bytes": 8613,
+      "sha256": "468083debad93bb963e092fa477152c372b2e3174b3e28fa4f897f96ed95890b"
+    },
+    {
+      "path": "lean/README.md",
+      "size_bytes": 1936,
+      "sha256": "21f4919d01c50a16b39c9c5f5958cc36b9b5b54bfee8bc3ba8265e51c05b96ee"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "size_bytes": 3108,
+      "sha256": "e027dc1acadb7c2e07b226fd9a0d0da1353c8252208c227e1250eceef373e88e"
+    },
+    {
+      "path": "lean/lakefile.lean",
+      "size_bytes": 204,
+      "sha256": "3f2480a3f7aa6bd02d068dee9cba809c391770ca2368b22b79f23cd2e8414374"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "size_bytes": 25,
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "path": "lean/verification_status.json",
+      "size_bytes": 1255,
+      "sha256": "11c8a6d09714a612a56605b4e4ddb62ba88c2a61456718ccfaa917da14ccc814"
+    },
+    {
+      "path": "paper/canonical_coloring.pdf",
+      "size_bytes": 258878,
+      "sha256": "dfee4f87981593f34b7d38883f412d10297e1fdbdcc2afc92081cbef1090ddca"
+    },
+    {
+      "path": "paper/canonical_coloring.tex",
+      "size_bytes": 9725,
+      "sha256": "6944fa34f3462c98ebc4952e10c204536c7189dd2ee5cc67402c32fdb414f9c9"
+    },
+    {
+      "path": "paper/submission_notes.txt",
+      "size_bytes": 3641,
+      "sha256": "931c44daa113d95caed16b6120442363ebbdcd44d9db0ac29efa39d041a25a29"
+    },
+    {
+      "path": "verification/SANITY_CHECK.json",
+      "size_bytes": 32071,
+      "sha256": "007c4b79f7011fb06966c686186ea6bc5db0a4424a63edf4c2ec7f61cb3d7026"
+    },
+    {
+      "path": "verification/affine_interval_check.json",
+      "size_bytes": 10542,
+      "sha256": "51341bd7dcea70a07b1785ac6d80ee9efe42c86a3fb9bb30c89233ca93c45342"
+    },
+    {
+      "path": "verification/affine_interval_check.py",
+      "size_bytes": 2035,
+      "sha256": "6d524ba310c6a01f441d142a56444d6983307f323e564e13ced43bb7669d6630"
+    },
+    {
+      "path": "verification/affine_interval_lemma.txt",
+      "size_bytes": 3028,
+      "sha256": "feff4b027b1161a705d28cf5ac0ccbf2a37c160c6ac483566d1ddb6d93ba4af9"
+    },
+    {
+      "path": "verification/independent_proof_audit.txt",
+      "size_bytes": 6751,
+      "sha256": "dd7ba50ab0da9fbb59fae9d064ee794fdc6cdd91b016e574e4dd1c29f7d71018"
+    },
+    {
+      "path": "verification/literature_audit.txt",
+      "size_bytes": 6071,
+      "sha256": "b4f02cae41d162c98daf001da07727cc51ab67c384bfa75a4adb5054fa97b510"
+    },
+    {
+      "path": "verification/proof_and_audit.pdf",
+      "size_bytes": 241081,
+      "sha256": "d76a1ba5c53e15d9c1934a52aff20a7444c31e3412fc67ae1cbc729f007c8ce1"
+    },
+    {
+      "path": "verification/proof_and_audit.tex",
+      "size_bytes": 13742,
+      "sha256": "52fb798fae5835f623aa307b63214b1da534108d71bf373b3198ca312a77aa38"
+    },
+    {
+      "path": "verification/provenance.json",
+      "size_bytes": 688,
+      "sha256": "8ed39ae3144d36a16847aae6e07335c44c0e11f9f2b7d74ef172bb56ed93d069"
+    },
+    {
+      "path": "verification/review_status.json",
+      "size_bytes": 1704,
+      "sha256": "8ff49b4b749a9cedc72ca72ea2fde68a5d4560c0ee4519a26967bb7511422156"
+    },
+    {
+      "path": "verification/supplied_sanity_check.py",
+      "size_bytes": 3451,
+      "sha256": "19af79428f0e1b67820d589bbb764ec69c1a6fb8c7d5c46f5b46a350943ad41b"
+    }
+  ]
+}
