@@ -1,3 +1,4 @@
+import AlbertsonCollins.BlockCoordinates
 import AlbertsonCollins.CyclicSubgroups
 import AlbertsonCollins.BlockCosets
 import AlbertsonCollins.BlockActions

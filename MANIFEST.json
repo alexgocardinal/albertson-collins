@@ -159,8 +159,8 @@
     },
     {
       "path": "lean/AlbertsonCollins.lean",
-      "size_bytes": 1062,
-      "sha256": "38ead32313cc9c162dbcc9685c69d37f14dee4a6a01306b7d8339de42465cc8f"
+      "size_bytes": 1103,
+      "sha256": "64d35351770763f59bb19068bc840f52e6547968092023860cb0726032a60794"
     },
     {
       "path": "lean/AlbertsonCollins/BlockActions.lean",
@@ -171,6 +171,11 @@
       "path": "lean/AlbertsonCollins/BlockArithmetic.lean",
       "size_bytes": 3378,
       "sha256": "9a798e95a71df8219e736c50e3d2f8f7f73b6c694a1ce69f14c4080486f92956"
+    },
+    {
+      "path": "lean/AlbertsonCollins/BlockCoordinates.lean",
+      "size_bytes": 25922,
+      "sha256": "f01ae142c20f404a94070290876fe7daff5c2841c39b3aa0df6f475dc8f31508"
     },
     {
       "path": "lean/AlbertsonCollins/BlockCosets.lean",
@@ -239,8 +244,8 @@
     },
     {
       "path": "lean/verification_status.json",
-      "size_bytes": 1255,
-      "sha256": "11c8a6d09714a612a56605b4e4ddb62ba88c2a61456718ccfaa917da14ccc814"
+      "size_bytes": 1512,
+      "sha256": "7b38242faa6c2d9b6da1a2aa08ffec16f2a03284da83f9e8eb3628e5111ed268"
     },
     {
       "path": "paper/canonical_coloring.pdf",

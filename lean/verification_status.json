@@ -19,7 +19,11 @@
     "Blocks containing zero give additive subgroups",
     "Group images of blocks are additive translates",
     "Divisor description of cyclic subgroups",
-    "Nontrivial blocks give two smaller odd factors"
+    "Nontrivial blocks give two smaller odd factors",
+    "Residue block coordinate equivalences and cardinalities",
+    "Restricted block actions, odd order, and cyclic shifts",
+    "Complement and translation rules for regular subsets",
+    "Conditional high-block, low-block, and blockwise induction steps"
   ],
   "remaining": [
     "Coordinate equivalences and induced group actions",
