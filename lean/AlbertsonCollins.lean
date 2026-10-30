@@ -1,3 +1,4 @@
+import AlbertsonCollins.BurnsideSchurBridge
 import AlbertsonCollins.BurnsideSchurReduction
 import AlbertsonCollins.AffineCoordinates
 import AlbertsonCollins.AffineHalf

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "hash_algorithm": "SHA-256",
   "files": [
     {
@@ -9,8 +9,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 2497,
-      "sha256": "df1f51cf21f9951a4fcfa2950d76d011d9b541388c139638054f080277d7ee03"
+      "size_bytes": 2407,
+      "sha256": "bb144d693affc2e4dc8caca98299cd1f6239d5c2985117ad3085e10312023114"
     },
     {
       "path": "build_pdfs.py",
@@ -159,8 +159,18 @@
     },
     {
       "path": "lean/AlbertsonCollins.lean",
-      "size_bytes": 1185,
-      "sha256": "02f47710b2f3268ae115e426baba9a124aa825e5c5f5b164cf70ebd02a6e9440"
+      "size_bytes": 1353,
+      "sha256": "dcecfdcd247df7dc982911f44c76ef4d97b5c5627fa70930d66338c96dc5af6d"
+    },
+    {
+      "path": "lean/AlbertsonCollins/AffineCoordinates.lean",
+      "size_bytes": 5811,
+      "sha256": "449edc454d64b8b634fde38d93099fab826add0dfba81020ff7382970350c319"
+    },
+    {
+      "path": "lean/AlbertsonCollins/AffineHalf.lean",
+      "size_bytes": 9356,
+      "sha256": "14af98522c117f25b4a0e1600bb418d7a64f40bfd3751275c419439b73536d0c"
     },
     {
       "path": "lean/AlbertsonCollins/BlockActions.lean",
@@ -174,8 +184,8 @@
     },
     {
       "path": "lean/AlbertsonCollins/BlockCoordinates.lean",
-      "size_bytes": 25922,
-      "sha256": "f01ae142c20f404a94070290876fe7daff5c2841c39b3aa0df6f475dc8f31508"
+      "size_bytes": 25978,
+      "sha256": "bea7fae5ba5ca1d158f4b467109edd5709660acc7839ae782e91a45c7c663b62"
     },
     {
       "path": "lean/AlbertsonCollins/BlockCosets.lean",
@@ -184,8 +194,18 @@
     },
     {
       "path": "lean/AlbertsonCollins/BlockQuotient.lean",
-      "size_bytes": 22492,
-      "sha256": "f67f3d932786deba3033126dfb9bd2a8d9786d56805e5cd965d83b7a900d9428"
+      "size_bytes": 22483,
+      "sha256": "f175df4b0295d4fa81fadb896e41f0c9fbba43aff6e54e72bca382a7ac2aa72f"
+    },
+    {
+      "path": "lean/AlbertsonCollins/BurnsideSchurBridge.lean",
+      "size_bytes": 2781,
+      "sha256": "13876d3d9fed772447bb82153586f7ffec7e23051f03abdb780a43459fed22be"
+    },
+    {
+      "path": "lean/AlbertsonCollins/BurnsideSchurReduction.lean",
+      "size_bytes": 2640,
+      "sha256": "36c58b0b8a1e724d91565e50fdf347a243090272bdb0a61cd82d963daabab694"
     },
     {
       "path": "lean/AlbertsonCollins/CoordinateTransport.lean",
@@ -214,8 +234,13 @@
     },
     {
       "path": "lean/AlbertsonCollins/GroupInterface.lean",
-      "size_bytes": 4699,
-      "sha256": "015709b34297369c7f4389710144ba208d619784cea97c2d3626325a2f4068d5"
+      "size_bytes": 4719,
+      "sha256": "a37330d8158e1678872312d8bbd67260d21a48c71679a99c8571a6b47c1a3e92"
+    },
+    {
+      "path": "lean/AlbertsonCollins/IntervalCorrelation.lean",
+      "size_bytes": 7730,
+      "sha256": "b135551633398f150ac606d1cf8a06b95453cdd813f1c64b7510c9a4122f5623"
     },
     {
       "path": "lean/AlbertsonCollins/Obligations.lean",
@@ -228,34 +253,79 @@
       "sha256": "d8c1f4241abd6d6efc485a085dce4f7b9ab84b712307268d3ec3b588fc938636"
     },
     {
+      "path": "lean/CFSG/LICENSE",
+      "size_bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "lean/CFSG/Permutation/BurnsideSchur/CompositeDegree.lean",
+      "size_bytes": 4601,
+      "sha256": "2677b3db6f5c4dc8c7406d7f3d86eccdf48aa4b2bf0b4863f1822751b68d0246"
+    },
+    {
+      "path": "lean/CFSG/Permutation/BurnsideSchur/GroupRing.lean",
+      "size_bytes": 1938,
+      "sha256": "d04c22217816fe8c2e96b5a21694d740442f8a7f487cd454d62a528cdc77783d"
+    },
+    {
+      "path": "lean/CFSG/Permutation/BurnsideSchur/Main.lean",
+      "size_bytes": 3297,
+      "sha256": "3b2a10432dc19612ed45badd6dc305dce0ff1bfe23218810bd9b89aedbb3ea20"
+    },
+    {
+      "path": "lean/CFSG/Permutation/BurnsideSchur/PrimeDegree.lean",
+      "size_bytes": 11335,
+      "sha256": "20cb2d67f0c463d43d5341b35216fd7ecadb022cda9e0b4182f9cef78c027d50"
+    },
+    {
+      "path": "lean/CFSG/Permutation/BurnsideSchur/RegularCyclic.lean",
+      "size_bytes": 3166,
+      "sha256": "41000673a61e7fa8ca010db7de2c58c9697040942dbfdb470ad856b2700cdc93"
+    },
+    {
+      "path": "lean/CFSG/Permutation/BurnsideSchur/SchurRing.lean",
+      "size_bytes": 8921,
+      "sha256": "b0d86b243cdb5a562bb4a92172d3df30e3914b21d7d17a5c65423ab580dc91fa"
+    },
+    {
+      "path": "lean/CFSG/Permutation/BurnsideSchur/SeparatingSubgroup.lean",
+      "size_bytes": 12703,
+      "sha256": "ca78e7d5ad7ca0aa2231d2fd8d53d499d0241979fa0572fdb27aedce3eb886f6"
+    },
+    {
+      "path": "lean/CFSG/UPSTREAM.json",
+      "size_bytes": 224,
+      "sha256": "ae0f4049e78f60ebe9e9ccf3ce96bf97724d958afdd3b940a08290c7f5f904d3"
+    },
+    {
       "path": "lean/INITIAL_FORMALIZATION_NOTES.md",
       "size_bytes": 8613,
       "sha256": "468083debad93bb963e092fa477152c372b2e3174b3e28fa4f897f96ed95890b"
     },
     {
       "path": "lean/README.md",
-      "size_bytes": 2014,
-      "sha256": "323b467c94cbd8f78fd2b9adc9ffefe4512dbfe9ae2d8c08111cb417eecad97d"
+      "size_bytes": 2046,
+      "sha256": "ba592efb705b50680afb097d010a6b6f8e98f7c2f25b0dbacfbda071e4f3ee06"
     },
     {
       "path": "lean/lake-manifest.json",
-      "size_bytes": 3108,
-      "sha256": "e027dc1acadb7c2e07b226fd9a0d0da1353c8252208c227e1250eceef373e88e"
+      "size_bytes": 3175,
+      "sha256": "ca4c2764670b26c3af5496b946d7c0c6e96c65a69cf23a947aaf6e17e01f870b"
     },
     {
-      "path": "lean/lakefile.lean",
-      "size_bytes": 204,
-      "sha256": "3f2480a3f7aa6bd02d068dee9cba809c391770ca2368b22b79f23cd2e8414374"
+      "path": "lean/lakefile.toml",
+      "size_bytes": 304,
+      "sha256": "710f94499df76e892e59d5365dfec87dec83c95c603ce57cb3219749957193f2"
     },
     {
       "path": "lean/lean-toolchain",
-      "size_bytes": 25,
-      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+      "size_bytes": 29,
+      "sha256": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47"
     },
     {
       "path": "lean/verification_status.json",
-      "size_bytes": 1776,
-      "sha256": "998c0d4b4cbf03bd389f798ade4d48c1e57f90f2f4cd929bd8b8f70853785e81"
+      "size_bytes": 2286,
+      "sha256": "7472dd4ce1700062e8b0b6d4be5ae7f0c4eeb466d33fbe11bb49da5034d307ca"
     },
     {
       "path": "paper/canonical_coloring.pdf",

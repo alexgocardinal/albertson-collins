@@ -1,14 +1,14 @@
 {
-  "status_date": "2026-10-29",
-  "lean_version": "4.19.0",
-  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "status_date": "2026-10-30",
+  "lean_version": "4.35.0-rc3",
+  "mathlib_revision": "b63f6e8a68d220e3b3bc4f3792bb53650d375f24",
   "platform": "macOS, Apple Silicon",
   "compiled": true,
   "completed_components_kernel_checked": true,
-  "universal_group_theorem_proved": false,
-  "full_conjecture_formally_verified": false,
+  "universal_group_theorem_proved": true,
+  "full_conjecture_formally_verified": true,
   "new_project_axioms": false,
-  "evidence": "Successful lake build outputs supplied by Alex Chan in this chat.",
+  "evidence": "Successful repository build and final theorem axiom reports supplied by Alex Chan on 2026-10-30.",
   "verified_components": [
     "Elementary stabilizer and tournament lemmas",
     "Odd order of tournament automorphism groups",
@@ -28,11 +28,23 @@
     "Exact block intersection cardinalities and preservation of high indices",
     "Reduction of arbitrary nontrivial blocks to smaller degrees",
     "Fin-to-ZMod coordinate and group transport",
-    "Strong induction conditional on PrimitiveResidueHalfCase"
+    "Strong induction conditional on PrimitiveResidueHalfCase",
+    "Full interval-correlation formula and affine half-stabilizer argument",
+    "Burnside-Schur classification supplied by audited AxiomMath proof",
+    "Unconditional canonical half group theorem",
+    "Unconditional cyclic tournament half-coloring theorem"
   ],
-  "remaining": [
-    "Primitive-case classification and affine coordinate alignment",
-    "Affine half-interval stabilizer argument",
-    "A formal proof of the required Burnside-Schur theorem"
+  "remaining": [],
+  "verified_scope": "Prescribed half-coloring of cyclic tournaments in the stated cyclic coordinates.",
+  "burnside_schur_proved": true,
+  "final_theorems": [
+    "AlbertsonCollins.burnsideSchurStatement_proved",
+    "AlbertsonCollins.canonicalHalfGroup_proved",
+    "AlbertsonCollins.tournament_half_regular"
+  ],
+  "final_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
   ]
 }

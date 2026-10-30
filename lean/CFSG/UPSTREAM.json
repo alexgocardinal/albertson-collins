@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/AxiomMath/CFSG",
+  "revision": "69cb972f587a3ecc035e092253167ff2e303c962",
+  "license": "Apache-2.0",
+  "source_directory": "CFSG/Permutation/BurnsideSchur",
+  "modifications": "None"
+}

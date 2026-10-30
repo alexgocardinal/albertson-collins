@@ -1,0 +1,14 @@
+name = "burnside_schur_audit"
+defaultTargets = ["AlbertsonCollins"]
+
+[[lean_lib]]
+name = "CFSG"
+requiresModuleSystem = true
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "b63f6e8a68d220e3b3bc4f3792bb53650d375f24"
+
+[[lean_lib]]
+name = "AlbertsonCollins"

@@ -1,6 +1,8 @@
 import AlbertsonCollins.CyclicSubgroups
 import AlbertsonCollins.BlockArithmetic
 
+open Fin.NatCast
+
 namespace AlbertsonCollins
 
 /-- A block coordinate gives a representative below a * b. -/
@@ -189,7 +191,7 @@ def setwiseStabilizerIn {V : Type*}
   inv_mem' := by
     intro g hg x
     have h := hg (g.1.symm x)
-    simpa only [Equiv.apply_symm_apply] using h.symm
+    simpa only [Subgroup.coe_inv, Equiv.Perm.inv_def, Equiv.apply_symm_apply] using h.symm
 
 /-- A setwise stabilizer element restricts to a permutation of the set. -/
 def restrictToSet {V : Type*}

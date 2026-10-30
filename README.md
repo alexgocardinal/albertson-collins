@@ -4,21 +4,16 @@ Alex Chan
 Harvard University and NBER  
 achan@hbs.edu
 
-## Current status — October 29, 2026
+## Current status — October 30, 2026
 
-The manuscript presents an all-orders proof of the prescribed
-Albertson–Collins coloring statement, using the classical
-Burnside–Schur theorem.
+The prescribed half-coloring theorem for cyclic tournaments is formally
+proved. The stronger odd-order permutation-group statement is also proved.
 
-The Lean formalization is **in progress**. The existing project
-builds successfully with Lean 4.19.0, and its completed components
-have been checked by Lean. The main universal group theorem has
-not yet been formally proved.
+The project builds with Lean 4.35.0-rc3. The final theorem axiom reports
+contain only `propext`, `Classical.choice`, and `Quot.sound`.
+Burnside-Schur is supplied by proof terms, not an unproved hypothesis.
 
-A successful build of this project does **not** currently constitute
-a complete Lean verification of the conjecture.
-
-See lean/verification_status.json for the current verification record.
+See verification_status.json in the Lean directory for the verification record.
 
 ## Contents
 
@@ -45,19 +40,20 @@ lake build
 
 The toolchain and dependency manifest record the required versions.
 
-## Remaining formalization
+## Verified conclusions
 
-The block reductions, both induced actions, coordinate transport,
-and strong induction have been checked by Lean.
+- `AlbertsonCollins.canonicalHalfGroup_proved`
+- `AlbertsonCollins.tournament_half_regular`
 
-The theorem `canonicalHalfGroup_of_primitive_case` takes
-`PrimitiveResidueHalfCase` as an explicit hypothesis.
-That hypothesis remains unproved, so the full conjecture is
-not yet formally verified.
+Neither theorem takes an unproved classification hypothesis.
 
-- Primitive-case classification and affine coordinate alignment.
-- Affine half-interval stabilizer argument.
-- A formal proof of the required Burnside-Schur theorem.
+The external Burnside-Schur proof comes from AxiomMath/CFSG.
+Its pinned source revision is recorded in `CFSG/UPSTREAM.json` within
+the Lean directory, with the Apache-2.0 license in `CFSG/LICENSE`.
+
+Historical draft notices describe earlier checkpoints.
+The manuscript and historical audit documents have not yet been updated
+to describe the completed formalization.
 
 ## Computational material
 

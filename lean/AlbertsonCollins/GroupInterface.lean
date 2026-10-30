@@ -27,7 +27,7 @@ def Tournament.autGroup {V : Type u} (T : Tournament V) :
   inv_mem' := by
     intro f hf x y
     have h := hf (f.symm x) (f.symm y)
-    simpa only [Equiv.apply_symm_apply] using h.symm
+    simpa only [Equiv.Perm.inv_def, Equiv.apply_symm_apply] using h.symm
 
 /-- The elementary no-involution argument, now phrased inside the group. -/
 theorem Tournament.autGroup_involutive_eq_one {V : Type u}

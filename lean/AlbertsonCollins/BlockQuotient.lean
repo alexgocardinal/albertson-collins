@@ -137,7 +137,7 @@ theorem residue_difference_mod_iff (a b : Nat)
   calc
     a ∣ (y - x).val ↔
         ((y - x).val : ZMod a) = 0 :=
-      (ZMod.natCast_zmod_eq_zero_iff_dvd _ _).symm
+      (ZMod.natCast_eq_zero_iff _ _).symm
     _ ↔ p (y - x) = 0 := by rw [hval]
     _ ↔ p y = p x := by rw [map_sub, sub_eq_zero]
     _ ↔ y.val % a = x.val % a := by
