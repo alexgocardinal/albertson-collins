@@ -47,12 +47,17 @@ The toolchain and dependency manifest record the required versions.
 
 ## Remaining formalization
 
-- Coordinate equivalences and induced group actions.
-- Strong induction proving the universal group theorem.
-- Primitive-case reduction and the affine interval argument.
-- A formal proof of the required Burnside–Schur theorem.
+The block reductions, both induced actions, coordinate transport,
+and strong induction have been checked by Lean.
 
-No unproved project axiom has been introduced to replace these steps.
+The theorem `canonicalHalfGroup_of_primitive_case` takes
+`PrimitiveResidueHalfCase` as an explicit hypothesis.
+That hypothesis remains unproved, so the full conjecture is
+not yet formally verified.
+
+- Primitive-case classification and affine coordinate alignment.
+- Affine half-interval stabilizer argument.
+- A formal proof of the required Burnside-Schur theorem.
 
 ## Computational material
 

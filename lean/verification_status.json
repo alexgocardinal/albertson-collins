@@ -23,12 +23,16 @@
     "Residue block coordinate equivalences and cardinalities",
     "Restricted block actions, odd order, and cyclic shifts",
     "Complement and translation rules for regular subsets",
-    "Conditional high-block, low-block, and blockwise induction steps"
+    "Conditional high-block, low-block, and blockwise induction steps",
+    "Action on block indices, odd order, and cyclic shift",
+    "Exact block intersection cardinalities and preservation of high indices",
+    "Reduction of arbitrary nontrivial blocks to smaller degrees",
+    "Fin-to-ZMod coordinate and group transport",
+    "Strong induction conditional on PrimitiveResidueHalfCase"
   ],
   "remaining": [
-    "Coordinate equivalences and induced group actions",
-    "Strong induction proving the main group theorem",
-    "Primitive-case reduction and affine interval argument",
+    "Primitive-case classification and affine coordinate alignment",
+    "Affine half-interval stabilizer argument",
     "A formal proof of the required Burnside-Schur theorem"
   ]
 }

@@ -26,14 +26,17 @@ See verification_status.json for the current verification record.
 
 ## Remaining work
 
-- Coordinate equivalences and induced group actions.
-- The strong induction proving the universal group theorem.
-- The primitive-case reduction and affine interval argument.
-- A formal proof of the required Burnside–Schur theorem.
+The block reductions, both induced actions, coordinate transport,
+and strong induction have been checked by Lean.
 
-No unproved project axiom replaces these missing steps.
-Standard Lean foundations such as Classical.choice are distinct
-from assuming an unproved mathematical theorem.
+The theorem `canonicalHalfGroup_of_primitive_case` takes
+`PrimitiveResidueHalfCase` as an explicit hypothesis.
+That hypothesis remains unproved, so the full conjecture is
+not yet formally verified.
+
+- Primitive-case classification and affine coordinate alignment.
+- Affine half-interval stabilizer argument.
+- A formal proof of the required Burnside-Schur theorem.
 
 ## Build
 
