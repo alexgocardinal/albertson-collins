@@ -1,3 +1,6 @@
+import AlbertsonCollins.BurnsideSchurReduction
+import AlbertsonCollins.AffineCoordinates
+import AlbertsonCollins.AffineHalf
 import AlbertsonCollins.CoordinateTransport
 import AlbertsonCollins.BlockQuotient
 import AlbertsonCollins.BlockCoordinates
