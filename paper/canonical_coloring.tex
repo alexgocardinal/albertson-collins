@@ -17,7 +17,7 @@
 \author{Alex Chan\\
 \small Harvard University and NBER\\
 \small \texttt{achan@hbs.edu}}
-\date{October 28, 2026}
+\date{October 30, 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -29,7 +29,8 @@ translation $x\mapsto x+1$, the set $\{0,\ldots,(n-1)/2\}$ has trivial
 setwise stabilizer. The proof combines induction on block systems with
 the Burnside--Schur theorem. In the primitive case, intersection sizes
 of translates of the interval restrict an affine stabilizer to the
-identity or a reflection.
+identity or a reflection. The group theorem and its tournament
+corollary are also formally verified in Lean.
 \end{abstract}
 \noindent\textbf{Keywords.} Cyclic tournament; distinguishing coloring;
 regular subset; permutation group.\\
@@ -179,20 +180,53 @@ only automorphism preserving the first color class $I_{2q+1}$ is the
 identity, as required.
 \end{proof}
 
+\section{Formal verification and reproducibility}
+Theorem~\ref{thm:main} and Corollary~\ref{cor:AC} have been formally
+verified in Lean. The proof is available in the
+\href{https://github.com/alexgocardinal/albertson-collins/tree/2802921/lean}{project repository}
+at commit \texttt{2802921}. The declarations
+\texttt{canonicalHalfGroup\_proved} and
+\texttt{tournament\_half\_regular}, in the namespace
+\texttt{AlbertsonCollins}, express the group theorem and the tournament
+conclusion, respectively. The latter assumes that rotation of the
+specified cyclic labels preserves all arcs; it concludes that the
+canonical half has trivial setwise stabilizer in the automorphism group.
+
+The formal proof includes the block actions, strong induction, and the
+interval-intersection argument. The Burnside--Schur step uses proof
+terms from AxiomMath's formalization~\cite{AxiomMath}, with the source
+revision and Apache-2.0 license recorded in the repository. Thus the
+classification step is proved rather than assumed as an additional
+hypothesis. The complete project was built with Lean 4.35.0-rc3 and
+a pinned Mathlib revision. The final theorem axiom reports contain
+only \texttt{propext}, \texttt{Classical.choice}, and
+\texttt{Quot.sound}. The finite computational checks are not premises
+of either formal theorem.
+
 \medskip
 \noindent\textbf{Data availability.} The results are proved analytically;
-no research datasets are used.
+no research datasets are used. The Lean proof, dependency pins,
+computational scripts, and graph examples are available in the
+\href{https://github.com/alexgocardinal/albertson-collins}{project repository}.
 
 \medskip
 \noindent\textbf{AI assistance.} ChatGPT/Codex (OpenAI) assisted with
 checking the supplied proof, developing the interval-intersection
-argument, implementing finite checks, and drafting the exposition.
+argument, implementing finite checks, developing and debugging the
+Lean formalization, and drafting the exposition.
 
 \begin{thebibliography}{9}
 \bibitem{AC}
 M.~O. Albertson and K.~L. Collins,
 A note on breaking the symmetries of tournaments,
 \emph{Congressus Numerantium} \textbf{136} (1999), 129--131.
+
+\bibitem{AxiomMath}
+AxiomMath,
+\emph{Classification of Finite Simple Groups in Lean},
+Burnside--Schur modules, source revision
+\href{https://github.com/AxiomMath/CFSG/tree/69cb972f587a3ecc035e092253167ff2e303c962/CFSG/Permutation/BurnsideSchur}{\texttt{69cb972f587a}},
+2026. Apache-2.0.
 
 \bibitem{EP}
 S. Evdokimov and I. Ponomarenko,
@@ -215,3 +249,4 @@ Albertson--Collins Conjecture,
 \href{https://doi.org/10.1016/j.dam.2018.10.021}{doi:10.1016/j.dam.2018.10.021}.
 \end{thebibliography}
 \end{document}
+

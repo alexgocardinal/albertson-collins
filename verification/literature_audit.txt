@@ -1,3 +1,18 @@
+FORMALIZATION ADDENDUM -- 30 OCTOBER 2026
+
+The literature and journal-policy search below is the historical
+28 October audit. No new priority or journal-policy search is asserted.
+The completed Lean proof is preserved at project commit 2802921.
+Its Burnside-Schur proof terms come from AxiomMath/CFSG revision
+69cb972f587a3ecc035e092253167ff2e303c962, under Apache-2.0:
+https://github.com/AxiomMath/CFSG/tree/69cb972f587a3ecc035e092253167ff2e303c962/CFSG/Permutation/BurnsideSchur
+This is attribution for a formalization of a classical theorem, not a
+claim that AxiomMath proved the cyclic-tournament result in this project.
+Formal verification does not establish publication priority.
+
+ORIGINAL LITERATURE AND POLICY AUDIT -- 28 OCTOBER 2026
+=====================================================
+
 Independent primary-source literature and journal check
 Client date: 28 October 2026
 
@@ -99,3 +114,4 @@ not support an acceptance prediction or a claim that either journal prefers
 this specific result.
 
 No external messages or submissions were sent.
+

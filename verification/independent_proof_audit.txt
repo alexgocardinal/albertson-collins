@@ -1,3 +1,22 @@
+STATUS ADDENDUM -- 30 OCTOBER 2026
+
+The historical model audit below was written on 28 October 2026 and is
+retained verbatim. Its description of the then-uncompiled Lean files is
+superseded by the completed formalization at project commit 2802921.
+AlbertsonCollins.canonicalHalfGroup_proved and tournament_half_regular
+now compile with Lean 4.35.0-rc3 and the pinned Mathlib revision. Their
+axiom reports contain only propext, Classical.choice, and Quot.sound.
+Burnside-Schur is supplied by the included AxiomMath/CFSG proof terms,
+not left as an unproved hypothesis. The formal proof uses interval
+correlations; the alternative second-moment argument discussed below
+remains part of the historical mathematical review, not a claimed
+separate formalization. Build evidence was supplied by Alex Chan.
+This addendum records formalization progress, not a new independent
+model audit, a new priority search, or external human peer review.
+
+ORIGINAL AUDIT -- 28 OCTOBER 2026
+================================
+
 Independent mathematical audit of the canonical-half theorem
 Date: 28 October 2026 (client date)
 Reviewer: independent model instance; this is not external human peer review.
@@ -59,3 +78,4 @@ Presentation improvements
 No mathematical gap found.
 
 Root follow-up: the exact conjecture and action-level Burnside--Schur statement were independently opened and checked in the primary sources listed in literature_audit.txt. The final rewritten paper was also reread with no gap identified.
+

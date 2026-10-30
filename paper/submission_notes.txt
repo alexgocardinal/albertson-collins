@@ -1,10 +1,26 @@
-SUBMISSION WORKING NOTES -- 28 OCTOBER 2026
+SUBMISSION WORKING NOTES -- UPDATED 30 OCTOBER 2026
 Prepared for Alex Chan, Harvard University and NBER, achan@hbs.edu.
 
 The mathematical audit finds no gap in the complete all-orders argument.
 The supplied proof and the rewritten autocorrelation proof use the
 classical Burnside--Schur theorem, not finite computation as a premise.
-The paper draft does not claim Lean verification or priority certification.
+The paper now records a complete Lean verification of the group theorem
+and cyclic-tournament corollary. It does not claim priority certification.
+
+FORMAL VERIFICATION
+Completed source checkpoint: 2802921 in alexgocardinal/albertson-collins.
+Lean 4.35.0-rc3; Mathlib b63f6e8a68d220e3b3bc4f3792bb53650d375f24.
+Final theorems: AlbertsonCollins.canonicalHalfGroup_proved and
+AlbertsonCollins.tournament_half_regular. Their axiom reports contain
+only propext, Classical.choice, and Quot.sound. Burnside-Schur is
+supplied by proof terms from AxiomMath/CFSG revision
+69cb972f587a3ecc035e092253167ff2e303c962, with Apache-2.0 attribution.
+The mathematical theorem and the finite computational checks remain
+separate: the checks are not premises of the formal proof.
+Build evidence is the successful output supplied by Alex Chan.
+
+The journal and policy notes below record the 28 October source check;
+they have not been revalidated for policy changes in this update.
 
 MANUSCRIPT
 Title: Canonical distinguishing colorings of cyclic tournaments
@@ -21,7 +37,7 @@ It has no external figures, bibliography processor, or custom class.
 The proof is independent of the supplementary graph code.
 
 JOURNAL OF GRAPH THEORY
-Official guidelines:
+Guidelines recorded in the 28 October audit:
 https://onlinelibrary.wiley.com/page/journal/10970118/homepage/forauthors.html
 
 Its scope includes structural graph results and related combinatorics.
@@ -33,7 +49,7 @@ datasets. The author still needs to provide or confirm ORCID, funding
 information, conflicts, and any acknowledgments that apply.
 
 COMBINATORICA
-Official instructions:
+Instructions recorded in the 28 October audit:
 https://link.springer.com/journal/493/submission-guidelines
 https://media.springer.com/full/springer-instructions-for-authors-assets/pdf/95445_1085900_493_CCA_Instructions_to_authors_20240627.pdf
 https://combinatorica.hu/
@@ -47,14 +63,15 @@ title above is within 35 characters. There is no prediction of acceptance.
 AI ASSISTANCE
 The draft contains a factual disclosure that ChatGPT/Codex assisted with
 checking the supplied proof, developing the interval-intersection argument,
-implementing finite checks, and drafting the exposition. This is substantive
+implementing finite checks, developing and debugging the Lean
+formalization, and drafting the exposition. This is substantive
 assistance, so the declaration is not limited to language editing.
 The author should finalize the declaration and any requested tool/version
 details under the selected journal's policy after personally reviewing the
 complete proof, citations, and manuscript. No unperformed author review is
 asserted in the draft.
 
-Official policy guidance checked:
+Policy guidance checked in the 28 October audit:
 https://www.wiley.com/publishing/article/ai-guidelines
 https://authors.wiley.com/ethics-guidelines/index.html
 https://group.springernature.com/gp/group/ai/ai-guidance-for-researchers-editors-reviewers
@@ -71,3 +88,4 @@ search hit is not evidence sufficient to establish firstness.
 An independent human reading and a citation-forward novelty search remain
 the main scientific follow-up before choosing a journal. The two journals
 are alternative submission targets. No manuscript or inquiry has been sent.
+

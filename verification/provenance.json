@@ -18,5 +18,16 @@
     }
   ],
   "standalone_vs_archived_pdf_normalized_text_identical": true,
-  "other_round41_conjectures_recertified": false
+  "other_round41_conjectures_recertified": false,
+  "last_updated": "2026-10-30",
+  "formal_verification": {
+    "project_repository": "https://github.com/alexgocardinal/albertson-collins",
+    "proof_source_commit": "2802921",
+    "external_classification_repository": "https://github.com/AxiomMath/CFSG",
+    "external_classification_revision": "69cb972f587a3ecc035e092253167ff2e303c962",
+    "external_classification_license": "Apache-2.0",
+    "lean_version": "4.35.0-rc3",
+    "mathlib_revision": "b63f6e8a68d220e3b3bc4f3792bb53650d375f24",
+    "evidence": "Successful repository build and final theorem axiom reports supplied by Alex Chan on 2026-10-30"
+  }
 }

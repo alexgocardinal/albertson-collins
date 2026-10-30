@@ -1,4 +1,28 @@
-# Lean foundation: explicitly uncompiled and incomplete
+# Historical formalization roadmap
+
+## Status update — October 30, 2026
+
+The initial notes below are preserved as a dated development record.
+Their uncompiled and incomplete status statements apply to the initial
+October 28 package, not to the current project.
+
+The final declarations `AlbertsonCollins.canonicalHalfGroup_proved` and
+`AlbertsonCollins.tournament_half_regular` compile on Lean 4.35.0-rc3.
+The Burnside–Schur hypothesis is discharged by
+`AlbertsonCollins.burnsideSchurStatement_proved`, using the included
+AxiomMath/CFSG proof terms. All three final axiom reports contain only
+`propext`, `Classical.choice`, and `Quot.sound`.
+
+See [the current README](README.md),
+[verification record](verification_status.json), and
+[final bridge](AlbertsonCollins/BurnsideSchurBridge.lean).
+The completed source checkpoint is `2802921`; the current Lake
+configuration is `lakefile.toml`. The old 4.19 toolchain and
+`lakefile.lean` references below are historical.
+
+## Original notes — October 28, 2026
+
+### Initial Lean foundation: explicitly uncompiled and incomplete
 
 **This is not a Lean-verified proof of the conjecture.** Neither `lean` nor
 `lake` was available in the execution environment. No module in this folder
@@ -141,3 +165,4 @@ reported as such.
   <https://leanprover-community.github.io/mathematics_in_lean/C04_Sets_and_Functions.html>
 
 The current documentation pages were inspected; they are not a build log.
+

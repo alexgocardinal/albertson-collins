@@ -1,5 +1,4 @@
 {
-  "client_date": "2026-10-28",
   "mathematical_assessment": "No gap found; full canonical coloring conclusion follows using classical Burnside-Schur.",
   "paper_uses_new_affine_intersection_lemma": true,
   "original_second_moment_step_valid": true,
@@ -83,10 +82,28 @@
     "max_degree_exact_odd_permutations": 13
   },
   "lean": {
-    "runtime_available": false,
-    "compiled": false,
-    "kernel_checked": false,
-    "universal_group_theorem_formalized": false
+    "verification_date": "2026-10-30",
+    "verification_environment": "macOS, Apple Silicon; successful build output supplied by Alex Chan",
+    "compiled": true,
+    "kernel_checked": true,
+    "universal_group_theorem_formalized": true,
+    "cyclic_tournament_half_coloring_formalized": true,
+    "proof_source_commit": "2802921",
+    "lean_version": "4.35.0-rc3",
+    "mathlib_revision": "b63f6e8a68d220e3b3bc4f3792bb53650d375f24",
+    "burnside_schur_source_revision": "69cb972f587a3ecc035e092253167ff2e303c962",
+    "unproved_classification_hypothesis": false,
+    "final_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "final_theorems": [
+      "AlbertsonCollins.canonicalHalfGroup_proved",
+      "AlbertsonCollins.tournament_half_regular"
+    ],
+    "remaining_proof_obligations": [],
+    "documentation_update_reran_lean": false
   },
   "novelty_established": false,
   "external_human_peer_review": false,
@@ -95,5 +112,9 @@
     "https://kcollins.web.wesleyan.edu/publications/symnote-saks.pdf",
     "https://arxiv.org/pdf/math/0310373"
   ],
-  "other_round41_conjectures_recertified": false
+  "other_round41_conjectures_recertified": false,
+  "last_updated": "2026-10-30",
+  "initial_audit_date": "2026-10-28",
+  "finite_checks_last_run": "2026-10-28",
+  "priority_search_repeated_in_this_update": false
 }

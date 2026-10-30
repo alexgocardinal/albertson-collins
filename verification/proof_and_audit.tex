@@ -10,7 +10,7 @@ pdftitle={Albertson--Collins: proof and verification},pdfauthor={Prepared for Al
 \setlength{\headheight}{14pt}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{Albertson--Collins: proof and verification}
-\fancyhead[R]{28 October 2026}
+\fancyhead[R]{30 October 2026}
 \fancyfoot[C]{\thepage}
 \newcommand{\Z}{\mathbb Z}
 \newcommand{\F}{\mathbb F}
@@ -26,8 +26,10 @@ Harvard University and NBER \quad \texttt{achan@hbs.edu}
 \textbf{Assessment: I find no mathematical gap in the uploaded all-orders
 argument.} With the classical Burnside--Schur theorem as an external
 mathematical input, it proves the prescribed-coloring conjecture for
-\emph{every} cyclic tournament. This is a mathematical review, not a
-Lean kernel certificate or external human peer review. A bounded
+\emph{every} cyclic tournament. The mathematical review is supplemented by a completed Lean proof,
+but no external human peer review is claimed. The Lean formalization was
+completed on 30 October 2026; its final theorem axiom reports contain
+only Lean's three standard logical axioms (Section~5). A bounded
 literature search did not locate a later complete resolution; priority
 is not established.
 
@@ -63,7 +65,9 @@ so no finite collection of graphs alone can prove the statement.
 says that a primitive action with a cyclic regular subgroup is either
 doubly transitive or has prime degree and is conjugate to an affine
 action over the prime field. The action-level conclusion is essential:
-an abstract group isomorphism would not suffice.
+an abstract group isomorphism would not suffice. In the completed
+formalization, this input is supplied by imported proof terms from
+AxiomMath/CFSG, not an unproved axiom or theorem parameter.
 
 \textbf{What changed in the new paper.} The supplied induction and
 coordinate-normalization argument are retained. An elementary
@@ -245,31 +249,69 @@ new affine-lemma check, and machine-readable finite-check results.
 
 \newpage
 \section*{5. Formalization and publication}
-\textbf{Lean status.} The supplied Lean files are a foundation,
-not a complete formal proof. Lean and Lake are unavailable in this
-execution environment, so no file has been compiled or kernel-checked.
-Comments and the Lean README distinguish proposed proofs, conditional
-interfaces, and remaining mathematical obligations.
+\textbf{Lean status: complete.} On 30 October 2026, the project built
+successfully on Alex Chan's macOS machine with Lean 4.35.0-rc3.
+The supplied build output includes the following final declarations:
+\begin{itemize}
+\item \texttt{AlbertsonCollins.burnsideSchurStatement\_proved};
+\item \texttt{AlbertsonCollins.canonicalHalfGroup\_proved};
+\item \texttt{AlbertsonCollins.tournament\_half\_regular}.
+\end{itemize}
+The group theorem has no unproved mathematical hypothesis beyond the
+conditions in its statement. The tournament theorem takes a tournament
+on \texttt{Fin (2*q+1)} and the hypothesis that its standard rotation
+preserves arcs. It concludes regularity of \texttt{halfSet (2*q+1)}
+for the full automorphism group. This is the prescribed cyclic-label
+half-coloring conclusion, not a statement about arbitrary tournaments
+without the cyclic symmetry assumption.
 
-The main remaining work is the universal group theorem: classify
-translation-invariant blocks, construct quotient and within-block
-actions, prove the interval counts, and carry out strong induction.
-The primitive step needs the action-level Burnside--Schur theorem,
-coordinate normalization, and the affine interval lemma.
-Absence of \texttt{sorry} alone does not make a conditional theorem
-unconditional. A future certificate should expose dependencies with
-\texttt{\#print axioms}; treating Burnside--Schur as an unproved axiom
-would produce a relative certificate.
+\textbf{Dependency audit.} The final reports list only
+\texttt{propext}, \texttt{Classical.choice}, and \texttt{Quot.sound} under
+\texttt{\#print axioms}. No \texttt{sorryAx} or project-specific axiom
+appears in those reports. The formerly explicit Burnside--Schur
+hypothesis is discharged in \texttt{BurnsideSchurBridge.lean}.
+The relevant composite-degree and prime-degree classification proofs
+are included under \path{lean/CFSG/Permutation/BurnsideSchur}.
+Their upstream revision is
+\href{https://github.com/AxiomMath/CFSG/tree/69cb972f587a3ecc035e092253167ff2e303c962/CFSG/Permutation/BurnsideSchur}{\texttt{69cb972f587a}}
+of AxiomMath/CFSG. The files retain their Apache-2.0 license and source
+provenance in \texttt{lean/CFSG/LICENSE} and
+\texttt{lean/CFSG/UPSTREAM.json}.
 
-\textbf{Paper status.} The accompanying short article contains the
-full proof and the supplied author information. It is a submission
-draft, with no claim of journal acceptance, Lean verification, or
-established priority. The current literature search checked primary
-papers and targeted later work, but did not exhaust MathSciNet,
-zbMATH, or unpublished work. An independent human reading and a
-citation-forward novelty check remain useful before submission.
-Journal-specific preparation notes are included separately.
+\textbf{Reproduction.} The completed proof is pinned at
+\href{https://github.com/alexgocardinal/albertson-collins/tree/2802921/lean}{project commit \texttt{2802921}}.
+Its toolchain is Lean 4.35.0-rc3 and its Mathlib revision is
+\href{https://github.com/leanprover-community/mathlib4/tree/b63f6e8a68d220e3b3bc4f3792bb53650d375f24}{\texttt{b63f6e8a68d2}}.
+From the repository's \texttt{lean} directory, run:
+\begin{verbatim}
+lake update
+lake exe cache get Mathlib
+lake build
+lake env lean AlbertsonCollins/BurnsideSchurBridge.lean
+\end{verbatim}
+The final command prints the theorem signatures and their axiom reports.
+The machine-readable verification record is
+\texttt{lean/verification\_status.json}. The build evidence described
+here is the successful output supplied by Alex Chan; the documentation
+update does not claim an additional independent Lean execution.
 
+\textbf{Development history.} The 28 October package was an uncompiled
+foundation. The 29 October checkpoints established the block induction
+and coordinate transport. The completed 30 October version adds the
+interval and affine arguments, imports the audited classification proof,
+and closes the remaining hypothesis. Initial formalization notes and the
+original model audit are retained as dated historical records.
+
+\textbf{Paper status.} The accompanying article now records the completed
+formalization and its external source attribution. It remains a submission
+draft; neither formal verification nor this review establishes priority,
+journal acceptance, or external human peer review. The earlier literature
+search checked primary papers and targeted later work, but did not exhaust
+MathSciNet, zbMATH, or unpublished work. That search has not been repeated
+as part of this documentation update. Journal-specific preparation notes
+are included separately.
+
+\newpage
 \textbf{Primary references checked.}
 \begin{enumerate}
 \item K. Meslem and E. Sopena, \emph{On the distinguishing number of
@@ -282,7 +324,7 @@ symmetries of tournaments}, Congressus Numerantium \textbf{136}
 \href{https://kcollins.web.wesleyan.edu/publications/symnote-saks.pdf}{coauthor's primary copy}.
 \item S. Evdokimov and I. Ponomarenko, \emph{A new look at the
 Burnside--Schur theorem}, Bulletin of the London Mathematical Society
-\textbf{37} (2005), no. 4, 535--546. Opening theorem, p. 1;
+\textbf{37} (2005), no. 4, 535--546. Opening theorem;
 \href{https://arxiv.org/pdf/math/0310373}{arXiv:math/0310373}.
 \item D. Gluck, \emph{Trivial set-stabilizers in finite permutation
 groups}, Canadian Journal of Mathematics \textbf{35} (1983), no. 1,
@@ -290,8 +332,9 @@ groups}, Canadian Journal of Mathematics \textbf{35} (1983), no. 1,
 \href{https://doi.org/10.4153/CJM-1983-005-2}{doi:10.4153/CJM-1983-005-2}.
 \end{enumerate}
 
-\textbf{Continue from this package.} Compile the elementary Lean
-layer in a pinned Lean/mathlib environment, then replace the
-conditional group-theorem interface with the induction proof.
-The project README gives the source files and reproduction commands.
+\textbf{Continue from this package.} Reproduce the completed proof
+using the pinned dependencies above. Publication preparation now concerns
+author review, journal declarations, and the literature and priority
+assessment, rather than an outstanding Lean proof obligation.
 \end{document}
+

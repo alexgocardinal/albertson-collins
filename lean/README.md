@@ -34,9 +34,10 @@ The external Burnside-Schur proof comes from AxiomMath/CFSG.
 Its pinned source revision is recorded in `CFSG/UPSTREAM.json` within
 the Lean directory, with the Apache-2.0 license in `CFSG/LICENSE`.
 
-Historical draft notices describe earlier checkpoints.
-The manuscript and historical audit documents have not yet been updated
-to describe the completed formalization.
+The manuscript and proof-and-audit guide document the completed
+formalization and its external proof attribution. The initial roadmap
+and original audit are retained with dated status addenda. Their
+original draft notices describe earlier checkpoints.
 
 ## Build
 
@@ -57,3 +58,4 @@ INITIAL_FORMALIZATION_NOTES.md preserves the original detailed
 roadmap and API references. Its uncompiled-status statements,
 and historical draft notices in the original source comments,
 describe the initial package rather than the current build status.
+
